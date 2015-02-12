@@ -6,6 +6,11 @@ body {
     font-weight: 100;
 }
 
+div {color: #FFFFFF;
+    font-family: "Courier New", Courier, monospace
+    font-size: 12px;
+    font-weight: 100;}
+
 .three {
   align-content: flex-start;
   height: 100px;
