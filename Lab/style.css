@@ -8,7 +8,7 @@ p {
     color: #FFFFFF;
 }
 
-.three{
+.three {
   align-content: flex-start;
   height: 100px;
   margin: 20px;
@@ -17,10 +17,10 @@ p {
   border: 4px dotted #9799a7;
 }
 
-.two{
+.two {
     align-content: flex-start;
 }
 
-.four{
+.four {
     align-content: flex-end;
 }
