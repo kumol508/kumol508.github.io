@@ -1,22 +1,43 @@
 <html>
 <head>
     <style>
-.triangle-right {
-	width: 0;
-	height: 0;
-	border-top: 10px solid transparent;
-	border-left: 10px solid white;
-	border-bottom: 10px solid transparent;
+.curvedarrow {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-right: 9px solid white;
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
 }
+.curvedarrow:after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 3px solid white;
+  border-radius: 20px 0 0 0;
+  top: -12px;
+  left: -9px;
+  width: 12px;
+  height: 12px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.element{
+  shape-outside: circle(50%);
+  width: 300px;
+  height: 300px;
+  float: left;}
 
-.triangle-left {
-    text-align: right;
-	width: 0;
-	height: 0;
-	border-top: 10px solid transparent;
-	border-right: 10px solid white;
-	border-bottom: 10px solid transparent;
-}
+.element:hover{ circle(100%);
+  width: 300px;
+  height: 300px;
+  float: left;} 
+
 body {
     background-color: #808080;
     font-family: "Courier New", Courier, monospace;
@@ -56,7 +77,8 @@ p {
         <body link="white">
         <body vlink="white">
         <body alink="#009999">
-        <h2> art??!! </h2> <p class="triangle-right"></p>
+        <h2> art??!! 
+        <p class="element"></p>
         <h2 style="text-align:right"> -iculate... </h2>
         <h3 style="text-align:right"> -iculate... </h3>
         <h4 style="text-align:right"> -iculate... </h4>
@@ -66,7 +88,7 @@ p {
         <p class="two"> Commodities have no place <br/>
         in art: <strong>bananas<sup>??</sup><sub>!!</sub> jack <br/>
         fruits<sub>??</sub><sup>!!</sup></strong> get these still- <br/>
-        lives outta here! We're <br/>
+        lives outta here! We're </h2> <p class="curvedarrow"></p><br/> 
         </p>
         
         <p class="four"> intent on tasting some other <br/>
@@ -78,7 +100,7 @@ p {
         <p class="two">  approaches fascism, though <strong>Art</strong> <br/>
         in all its meanings will <strong>triumph</strong> <br/>
         <sup>over</sup> artifice, <sup>over</sup> Empire and <br/>
-        hate. The particular time-scale<br/>
+        hate. The particular time-scale </h2> <p class="curvedarrow"></p><br/>
         </p>
         
         <p class="four"> that it happens on.<sup>.</sup>.<sub>.</sub>. that's <br/>
