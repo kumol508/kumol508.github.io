@@ -7,8 +7,7 @@ body {
 }
 
 .three {
-    align-content: flex-start;
-  border: 6px solid #949599;
+  align-content: flex-start;
   height: 100px;
   margin: 20px;
   padding: 20px;
