@@ -1,9 +1,11 @@
 body {
-    background-color: #778899;
-    color: #FFFFFF;
+    background-color: #778899;}
+    
+p {
     font-family: "Courier New", Courier, monospace
     font-size: 12px;
     font-weight: 100;
+    color: #FFFFFF;\
 }
 
 .three{
