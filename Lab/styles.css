@@ -6,12 +6,7 @@ body {
     font-weight: 100;
 }
 
-div {color: #FFFFFF;
-    font-family: "Courier New", Courier, monospace
-    font-size: 12px;
-    font-weight: 100;}
-
-.three {
+.three{
   align-content: flex-start;
   height: 100px;
   margin: 20px;
@@ -20,10 +15,10 @@ div {color: #FFFFFF;
   border: 4px dotted #9799a7;
 }
 
-.two {
+p.two{
     align-content: flex-start;
 }
 
-.four {
+p.four{
     align-content: flex-end;
 }
