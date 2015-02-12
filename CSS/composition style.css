@@ -1,14 +1,25 @@
 body {
-    background-color: black;
+    background-color: #737575;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif
     font-size: 12px;
     font-weight: 100;
 }
-div {
+
+.three {
+    align-content: flex-start;
   border: 6px solid #949599;
   height: 100px;
   margin: 20px;
   padding: 20px;
   width: 400px;
   border: 4px dotted #9799a7;
+}
+
+.two {
+    align-content: flex-start;
+}
+
+.four {
+    align-content: flex-end;
 }
