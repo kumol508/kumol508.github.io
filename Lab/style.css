@@ -1,0 +1,26 @@
+body {
+    background-color: #778899;}
+    
+p {
+    font-family: "Courier New", Courier, monospace
+    font-size: 12px;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+
+.three{
+  align-content: flex-start;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+  border: 4px dotted #9799a7;
+}
+
+.two{
+    align-content: flex-start;
+}
+
+.four{
+    align-content: flex-end;
+}
