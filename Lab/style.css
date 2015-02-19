@@ -47,15 +47,8 @@ a {
   text-align: right;
 }
 
-.right:hover, .right:active {color: white;}
-.right:hover, .right:active {font-size: 150%;}
-.right:hover, .right:active {font-family: "Courier New", Courier, monospace;}
-
-h4:hover, h4:active {color: white;}
-h4:hover, h4:active {font-size: 150%;}
-h4:hover, h4:active {font-family: "Courier New", Courier, monospace;}
-
 p:hover, p:active {color: white;}
+p:hover, p:active {font-size: 50%;}
 p:hover, p:active {font-family: "Courier New", Courier, monospace;}
 
 
