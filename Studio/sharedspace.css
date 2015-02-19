@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0px;
+    font-weight: 100;
+    color: black;
+    }
+    
+.wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    width:480;
+    height:27;
+    margin:0px;
+    padding-top:1px;
+    padding-bottom:1px;
+    background-color:black;
+    float:left;
+}
+
+.two {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    width:480;
+    height:27;
+    margin:0px;
+    padding-top:1px;
+    padding-bottom:1px;
+    text-align: right;
+    background-color:black;
+    float:left;
+}
+
+.column {
+    height: 112px;
+    margin-left 36px;
+    margin-top 86px;
+    width: 60px;
+    border: 2px black
+}
