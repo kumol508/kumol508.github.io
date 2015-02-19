@@ -86,10 +86,12 @@ p {
 
 .two {
     text-align: left;
+    color: #808080;
 }
 
 .four {
     text-align: right;
+    color: #808080;
 }
 
 a {
@@ -100,22 +102,17 @@ a {
   text-align: right;
 }
 
-h2:hover, h2:active {color: black;}
+h2:hover, h2:active {color: white;}
 h2:hover, h2:active {font-size: 150%;}
-h2:hover, h2:active {background: white;}
-h2:hover, h2:active {font-family: arial;}
+h2:hover, h2:active {font-family: "Courier New", Courier, monospace;}
 
-h3:hover, h3:active {color: black;}
+h3:hover, h3:active {color: white;}
 h3:hover, h3:active {font-size: 150%;}
-h3:hover, h3:active {background: white;}
-h3:hover, h3:active {font-family: arial;}
+h3:hover, h3:active {font-family: "Courier New", Courier, monospace;}
 
-h4:hover, h4:active {color: black;}
+h4:hover, h4:active {color: white;}
 h4:hover, h4:active {font-size: 150%;}
-h4:hover, h4:active {background: white;}
-h4:hover, h4:active {font-family: arial;}
+h4:hover, h4:active {font-family: "Courier New", Courier, monospace;}
 
-p:hover, p:active {color: black;}
-p:hover, p:active {font-size: 150%;}
-p:hover, p:active {background: white;}
-p:hover, p:active {font-family: arial;}
+p:hover, p:active {color: white;}
+p:hover, p:active {font-family: "Courier New", Courier, monospace;}
