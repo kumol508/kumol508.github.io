@@ -6,10 +6,36 @@ body {
     color: black;
     }
     
+.home{
+    background-color: black;
+    color: white;
+    width:960px;
+    height:480;
+    margin: 0, auto, 0, auto;
+    font-size: 0px;
+}    
+.title{
+    background-color:white;
+    color: black;
+    width:416px;
+    height:106.022px;
+    margin: auto;
+    font-size: 42px;
+    text-align: center;
+}
+
+.subtitle{
+    color: black;
+    background-color:white;
+    height:26px;
+    font-size: 18px;
+    
+}
+    
 .wrapper {
     color: white;
     width:960;
-    margin: 0 auto, 30, auto;
+    margin: 0, auto, 30, auto;
     float:left;
     display: table;
 }
