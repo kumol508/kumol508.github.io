@@ -1,3 +1,8 @@
+.outer-wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
 body {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
