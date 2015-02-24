@@ -4,6 +4,7 @@ body {
     font-size: 0px;
     font-weight: 100;
     color: black;
+    margin: 0, auto, 0, auto;
     }
     
 .home{
@@ -20,9 +21,10 @@ body {
     color: black;
     width:416px;
     height:106.022px;
-    margin: auto;
+    margin: 134 auto 30 auto;
     font-size: 42px;
     text-align: center;
+    display:inline-block;
 }
 
 .subtitle{
@@ -32,6 +34,9 @@ body {
     width:416;
     font-size: 18px;
     margin: auto;
+    text-align: center;
+    display: inline-block;
+    inline-box-align: middle;
 }
     
 .wrapper {
@@ -50,9 +55,7 @@ body {
     color: white;
     height: 27px;
     width: 960px;
-    margin:0px 0px 30 0px;
-    padding-left:15px;
-    padding-right:15px;
+    margin:0px auto 30 auto;
 }
 
 .filter {float:right;
