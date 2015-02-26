@@ -1,6 +1,6 @@
 .outer-wrapper {width: 960px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #fa0d1b;
     color:black;}
     
 .wrap {margin: 0,auto;
@@ -8,14 +8,23 @@
     display:inline-block;
     width:960px;}    
 
-body {background-color: white;
+body {background-color: #fa0d1b;
     font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-size: 0px;
     color: black;}
     
-a {color:black;}
+a:link {color:black;}
 a:hover {color:red}
+a:visited {color:black;}
 
+.info {width: 156px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);}
+            
 .title {font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-size: 12;
     position: absolute;
@@ -25,32 +34,23 @@ a:hover {color:red}
 .subtitle {font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-size: 12;
     position: absolute;
-    top:52;
+    top:61;
     right:42;}
     
 .name {font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-size: 10;
+    width:156px;
     position: absolute;
-    top:311;
-    left:648;}
-    
-img {position:absolute;
-    top:133;
-    left:270;}
+    top:239px;
+}
 
-.s {width:42;
-    height:42;
-    background-color: #fa0d1b;
-    position:absolute;
-    top:289;
-    left:594;}
-
-.s1 {width:12;
-    height:12;
+.s1 {width:11;
+    height:11;
     background-color: #fa0d1b;
     position:absolute;
     top:155;
-    left:42;}
+    left:42;
+    border:1px solid black;}
 
 .s2 {width:12;
     height:12;
