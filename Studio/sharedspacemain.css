@@ -77,8 +77,21 @@ span {
     margin:0px 15px 30px 15px;
     display: inline-block;
     font-size: 0px;
+    float:left;}
+
+.small {margin:0px 15px 30px 15px;
+    display: inline-block;
+    font-size: 0px;
     float:left;
-  }
+    width:130px;
+    height:195px;}
+
+.medium {margin:0px 15px 30px 15px;
+    display: inline-block;
+    font-size: 0px;
+    float:left;
+    width:275px;
+height:183px}
   
 .image:hover { -moz-box-shadow: 0 0 10px #ccc; 
     -webkit-box-shadow: 0 0 10px #ccc; 
@@ -146,3 +159,11 @@ span {
 
  a:active {color:red;
  }
+ 
+ .video {
+    margin:0px 15px 30px 15px;
+    display: inline-block;
+    font-size: 0px;
+    float:left;
+    width: 275; 
+    height:325 }
