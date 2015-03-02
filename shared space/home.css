@@ -1,0 +1,72 @@
+body {
+padding: 0px;
+margin: 0px;
+color: #000000;
+font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+font-size: 10px;
+line-height: 12px;
+display: block;
+}
+
+.wrapper {
+margin: 0px auto;
+width: 100%;
+}
+.header {
+float: left;
+width: 100%;
+}
+
+.sidebar {
+position: fixed;
+width: 245px;
+height: auto;
+padding-right: 10px;
+padding-left: 4px;
+padding-top: 4px;
+padding-bottom: 1px;
+text-align: right;
+font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+font-size: 10px;
+line-height: 12px;
+margin-bottom: 2px;
+margin: 105px 0px 0px 80px;
+background-color: transparent;
+border-right: 2px solid #000000;
+}
+
+.title {
+display: block;
+text-align: right;
+font-weight: bold;
+font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+font-size: 21px;
+line-height: 23px;
+padding-bottom: 3px;
+color: #000000;
+}
+
+
+.text {
+text-align: right;
+font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+font-size: 18px;
+line-height: 23px;
+padding-bottom: 3px;
+color: #000000;
+}
+
+.content
+{position: relative; 
+height: 5105px;
+left:360px; 
+padding-top:10px;
+}
+
+.post {
+    width: 260px;
+    position: absolute; top: 0px; left: 0px;
+    padding: 10px;
+}
+
+
