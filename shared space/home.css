@@ -8,6 +8,7 @@ line-height: 12px;
 display: block;
 }
 
+
 .wrapper {
 margin: 0px auto;
 width: 100%;
@@ -19,7 +20,7 @@ width: 100%;
 
 .sidebar {
 position: fixed;
-width: 245px;
+width: 145px;
 height: auto;
 padding-right: 10px;
 padding-left: 4px;
@@ -58,8 +59,8 @@ color: #000000;
 
 .content
 {position: relative; 
-height: 5105px;
-left:360px; 
+height: 4105px;
+left:255px; 
 padding-top:10px;
 }
 
@@ -67,6 +68,31 @@ padding-top:10px;
     width: 260px;
     position: absolute; top: 0px; left: 0px;
     padding: 10px;
+    text-align:center;}
+
+
+.lightbox {
+	display: none;
+	position: relative; 
+    height: 100%;
+    z-index:1001; 
+    width: 800px;
+    padding-top:10px;
+	background: rgba(0,0,0,0.8);
 }
 
+.lightbox img {
+	max-width: 500px;
+	max-height: 500px;
+	margin-top: 20%;
+}
 
+.lightbox:target {
+	outline: none;
+    display: inline-block;
+}
+
+a:link {color:black;}
+a:visited {color:black;}
+a:hover {color:#e38b90;}
+a:active {color:yellow;
