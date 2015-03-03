@@ -20,7 +20,7 @@ width: 100%;
 
 .sidebar {
 position: fixed;
-width: 145px;
+width: 245px;
 height: auto;
 padding-right: 10px;
 padding-left: 4px;
@@ -59,8 +59,9 @@ color: #000000;
 
 .content
 {position: relative; 
-height: 4105px;
-left:255px; 
+height: 2000px;
+left:355px; 
+width:800px;
 padding-top:10px;
 }
 
@@ -95,4 +96,4 @@ padding-top:10px;
 a:link {color:black;}
 a:visited {color:black;}
 a:hover {color:#e38b90;}
-a:active {color:yellow;
+a:active {color:yellow;}
