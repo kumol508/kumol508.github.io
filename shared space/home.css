@@ -20,7 +20,7 @@ width: 100%;
 
 .sidebar {
 position: fixed;
-width: 245px;
+width: 175px;
 height: auto;
 padding-right: 10px;
 padding-left: 4px;
@@ -60,32 +60,37 @@ color: #000000;
 .content
 {position: relative; 
 height: 2000px;
-left:355px; 
-width:800px;
+left:270px; 
+width:830px;
 padding-top:10px;
 }
 
 .post {
     width: 260px;
     position: absolute; top: 0px; left: 0px;
-    padding: 10px;
-    text-align:center;}
+    padding: 20px;
+    text-align:center;
+    font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+    font-size: 12px;
+    line-height:1;
+}
 
 
 .lightbox {
 	display: none;
-	position: relative; 
+	position: absolute; 
     height: 100%;
     z-index:1001; 
-    width: 800px;
+    width: 100%;
     padding-top:10px;
 	background: rgba(0,0,0,0.8);
+	position: fixed;
 }
 
 .lightbox img {
 	max-width: 500px;
 	max-height: 500px;
-	margin-top: 20%;
+	margin-top: 10%;
 }
 
 .lightbox:target {
@@ -97,3 +102,5 @@ a:link {color:black;}
 a:visited {color:black;}
 a:hover {color:#e38b90;}
 a:active {color:yellow;}
+
+audio {width:260px;}

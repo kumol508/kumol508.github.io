@@ -1,6 +1,6 @@
 .outer-wrapper {width: 960px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #fa0d1b;
     color:black;}
     
 .wrap {margin: 0,auto;
@@ -8,11 +8,23 @@
     display:inline-block;
     width:960px;}    
 
-body {background-color: white;
+body {background-color: #fc6869;
     font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-size: 0px;
     color: black;}
+    
+a:link {color:black;}
+a:hover {color:red}
+a:visited {color:black;}
 
+.info {width: 156px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);}
+            
 .title {font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-size: 12;
     position: absolute;
@@ -22,128 +34,124 @@ body {background-color: white;
 .subtitle {font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-size: 12;
     position: absolute;
-    top:52;
+    top:61;
     right:42;}
+    
+.name {font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    font-size: 10;
+    width:156px;
+    position: absolute;
+    top:239px;
+}
 
 .s1 {width:12;
     height:12;
     background-color: #fa0d1b;
     position:absolute;
     top:155;
-    left:420;}
+    left:42;}
 
 .s2 {width:12;
     height:12;
     background-color: #fa0d1b;
     position:absolute;
     top:191;
-    left:420;}
-
-.s3 {width:12;
-    height:12;
-    background-color: #fc6869;
-    position:absolute;
-    top:226;
-    left:420;}
+    left:42;}
     
-.s4 {width:12;
+.s3 {width:12;
     height:12;
     background-color: #f98a34;
     position:absolute;
-    top:262;
-    left:420;}
+    top:226;
+    left:42;}
     
-.s5 {width:12;
+.s4 {width:12;
     height:12;
     background-color: #fdbf2d;
     position:absolute;
-    top:298;
-    left:420;}
+    top:262;
+    left:42;}
     
-.s6 {width:12;
+.s5 {width:12;
     height:12;
     background-color: #f9f836;
     position:absolute;
-    top:334;
-    left:420;}
+    top:298;
+    left:42;}
     
-.s7 {width:12;
+.s6 {width:12;
     height:12;
     background-color: #3699c0;
     position:absolute;
-    top:209;
-    left:474;}
+    top:334;
+    left:42;}
     
-.s8 {width:12;
+.s7 {width:12;
     height:12;
     background-color: #1c9efc;
     position:absolute;
-    top:244;
-    left:474;}
+    top:209;
+    left:70;}
     
-.s9 {width:11;
-    height:11;
+.s8 {width:12;
+    height:12;
     background-color: #e7eef4;
     position:absolute;
-    top:280;
-    left:474;
-    border:1px solid black;
-}
+    top:244;
+    left:70;}
     
-.s10 {width:12;
+.s9 {width:12;
     height:12;
     background-color: #441c19;
     position:absolute;
-    top:189;
-    left:528;}
+    top:280;
+    left:70;}
     
-.s11 {width:12;
+.s10 {width:12;
     height:12;
     background-color: #5a1a24;
     position:absolute;
-    top:225;
-    left:528;}
+    top:191;
+    left:96;}
     
-.s12 {width:12;
+.s11 {width:12;
     height:12;
     background-color: #8252b2;
     position:absolute;
-    top:261;
-    left:528;}
+    top:226;
+    left:96;}
     
-.s13 {width:12;
+.s12 {width:12;
     height:12;
     background-color: #e23fb6;
     position:absolute;
-    top:297;
-    left:528;}
+    top:262;
+    left:96;}
     
-.s14 {width:12;
+.s13 {width:12;
     height:12;
     background-color: #808080;
     position:absolute;
-    top:189;
-    left:582;}
+    top:298;
+    left:96;}
     
-.s15 {width:12;
+.s14 {width:12;
     height:12;
     background-color: #bebebe;
     position:absolute;
-    top:225;
-    left:582;}
+    top:209;
+    left:123;}
     
-.s16 {width:12;
+.s15 {width:12;
     height:12;
     background-color: #e2e1dd;
     position:absolute;
-    top:261;
-    left:582;}
+    top:244;
+    left:123;}
     
-.s17 {width:11;
-    height:11;
+.s16 {width:12;
+    height:12;
     background-color: #ffffff;
     position:absolute;
-    top:297;
-    left:582;
-    border:1px solid black;
-}    
+    top:280;
+    left:123;}
