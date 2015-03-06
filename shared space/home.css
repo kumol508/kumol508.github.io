@@ -14,8 +14,10 @@ margin: 0px auto;
 width: 100%;
 }
 .header {
-float: left;
-width: 100%;
+position:relative;
+top: 250px;
+margin: 0 auto;
+text-align: center;
 }
 
 .sidebar {
@@ -59,7 +61,7 @@ color: #000000;
 
 .content
 {position: relative; 
-height: 3800px;
+height: 3500px;
 left:270px; 
 width:830px;
 padding-top:10px;
@@ -104,3 +106,13 @@ a:hover {color:#e38b90;}
 a:active {color:yellow;}
 
 audio {width:260px;}
+
+.homepagetitle { text-align:center;
+    font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+    font-size: 24px;
+    line-height:1;}
+
+.homepagesubtitle { text-align:center;
+    font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+    font-size: 12px;
+    line-height:1.5;}
