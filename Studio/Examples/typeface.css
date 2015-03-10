@@ -1,0 +1,59 @@
+body {
+    font-size:0;
+}
+
+.word-wrapper {
+    display:inline-block;
+    margin-right:50px;
+}
+
+.aa {
+    width:660px;
+    /*comes from the width of the letters including their margin*/
+}
+
+.letter-wrapper {
+    display:inline-block;
+    margin:0 30 100 0;
+}
+
+.letter {
+    background:yellow;
+    width: 300px;
+    height:400px;
+    position:relative;
+}
+
+.bar {
+    background:black;
+    position:absolute;
+}
+.horizontal {
+    height:50px;
+    width:100%;
+}
+
+.vertical {
+    height:400px;
+    width:50px;
+}
+
+.a-left {
+    left:0;
+    top:0;
+}
+
+.a-right {
+    right:0;
+}
+
+.a-top {
+    top:0;
+    left:0;
+}
+
+.a-mid {
+    left:0;
+    top:175px;
+    /*to find top take the height in half and subtract half the width of a bar
+}
