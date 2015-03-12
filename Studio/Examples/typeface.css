@@ -27,10 +27,25 @@ body {
 .bar {
     background:black;
     position:absolute;
+    border-radius:50px;
+    /*border-radius rounds the edges of the bar*/
 }
+
+.circle {
+    background:black;
+    width:200px;
+    height:200px;
+    display:inline-block;
+    border-radius:200;
+    position:fixed;
+    top:50px;
+    right:100px;
+    z-index:1;
+}
+
 .horizontal {
     height:50px;
-    width:100%;
+    width:300px;
 }
 
 .vertical {

@@ -25,24 +25,23 @@ a:visited {color:black;}
        -moz-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);}
             
-.title {font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+.title {font-family: "Courier New", Courier, monospace;
     font-size: 12;
     position: absolute;
     top:36;
     right:42;}
 
-.subtitle {font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+.home {font-family: "Courier New", Courier, monospace;
     font-size: 12;
     position: absolute;
-    top:61;
-    right:42;}
+    top:36;
+    left:42;}
     
-.name {font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
+.name {font-family: "Courier New", Courier, monospace;
     font-size: 10;
-    width:156px;
+    width:250px;
     position: absolute;
     top:239px;
-}
 
 .s1 {width:12;
     height:12;

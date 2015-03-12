@@ -1,3 +1,6 @@
+a:link {color:black;}
+a:visited {color:black;}
+
 .outer-wrapper {width: 960px;
     margin: 0 auto;
     background-color: white;
@@ -9,28 +12,63 @@
     width:960px;}    
 
 body {background-color: white;
-    font-family: "Courier New", Courier, monospace;
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-size: 0px;
     color: black;}
 
-.title {font-family: "Courier New", Courier, monospace;
+.title {font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-size: 12;
     position: absolute;
     top:36;
     right:42;}
 
-.subtitle {font-family: "Courier New", Courier, monospace;
+.subtitle {font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
     font-size: 12;
     position: absolute;
     top:52;
     right:42;}
 
-.s1 {width:12;
-    height:12;
-    background-color: #fa0d1b;
-    position:absolute;
-    top:155;
-    left:420;}
+a {
+  width:12px;
+  height:12px;
+  background:#fa0d1b;
+  
+  top:155; left:420;
+  margin: auto;
+  position: absolute;
+  
+    -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
+  
+  animation: spin 1s;
+  -webkit-animation: spin 1s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -moz-animation-direction: alternate;
+  -o-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+a:nth-child {
+  animation-delay: 0.5s;
+}
+
+@keyframes spin {
+  to{background:blue;}
+}
+
+@-webkit-keyframes spin {
+  to{background:blue;}
+}
+
+a:hover {
+  transform: rotateZ(540deg);
+  border-radius:50%;
+  background:#fa0d1b;
+}
 
 .s2 {width:12;
     height:12;
@@ -146,4 +184,4 @@ body {background-color: white;
     top:297;
     left:582;
     border:1px solid black;
-}    
+}  
