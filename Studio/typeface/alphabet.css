@@ -5,11 +5,12 @@ body {
 .word-wrapper {
     display:inline-block;
     margin-right:6.5px;
+    padding-left:6.5;
 }
 
 .letter-wrapper {
     display:inline-block;
-    margin:0 3.25 13 0;
+    margin:0 13 13 0;
 }
 
 .letter {
@@ -38,6 +39,12 @@ body {
 
 .bar {
     background:black;
+    position:absolute;
+    border:6.5px;
+}
+
+.bar-off {
+    background:white;
     position:absolute;
     border:6.5px;
 }
@@ -215,12 +222,6 @@ width:6.5;
 height:6.5;
 }
 
-.e-mid {
-top: 19.5;
-left:6.5;
-width:6.5;
-height:6.5;
-}
 
 .fhorizontal {
     height:6.5px;
@@ -623,7 +624,8 @@ height:6.5;
 
 .s-htop {
     top:6.5;
-    left:0;
+    left:6.5;
+    width:13;
 }
 .s-hbottom {
     top:26;
