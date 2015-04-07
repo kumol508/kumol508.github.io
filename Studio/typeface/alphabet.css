@@ -4,9 +4,24 @@ body {
 
 .word-wrapper {
     display:inline-block;
-    margin-right:6.5px;
-    padding-left:6.5;
+    margin-right:13px;
+    padding-left:13;
 }
+
+.text {
+    position:absolute;
+    text-align:center;
+    margin:0 auto;
+    top:250;
+    left:350;
+}
+
+.transition {
+    transition: all 0.5s ease;
+    opacity:0;
+    top:600px;
+}
+
 
 .letter-wrapper {
     display:inline-block;
@@ -38,16 +53,33 @@ body {
 }
 
 .bar {
+    transition: all .5s ease;
     background:black;
     position:absolute;
     border:6.5px;
 }
 
+.bar:hover {
+    transition: all 0.5s ease;
+    opacity:0;
+    top:150px;
+}
+
 .bar-off {
+    transition: all .5s ease;
     background:white;
     position:absolute;
     border:6.5px;
 }
+
+.bar-off:hover {
+    transition: all 0.5s ease;
+    opacity:0;
+    top:150px;
+}
+
+.bar-transition {
+    background:none;}
 
 .ahorizontal {
     height:6.5px;
@@ -854,4 +886,8 @@ height:6.5;
 .z-hright {
     top:26;
     left:6.5;
+}
+
+.hide {
+    background-color: transparent;
 }

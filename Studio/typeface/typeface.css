@@ -1,32 +1,39 @@
 body {
     font-size:0;
-    height:3500;
-    width:1000;
+    height:100%;
+    width:1300;
 }
 
 .off {
     background-color:black;
-    width:1000;
-    height:700;
+    height:100%;
     padding-top:10px;
     position:relative;
+    margin: 0 auto;
+    text-align:center;
 }
 
 .on {
     background-color:white;
-    width:1000;
-    height:700;
+    height:100%;
     padding-top:10px;
     position:relative;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.transition-drop {
+    opacity: 0.5;
 }
 
 .wrapper {
-margin: 0px auto;
+    margin: 0px auto;
+    width:100%;
 }
 
-.content
-{position: relative; 
-height: 3500px;
-width:1000px;
-margin: 0 auto;
+.content {
+    position: absolute; 
+    height: 700px;
+    width:1300px;
+    margin: 0 auto;
 }

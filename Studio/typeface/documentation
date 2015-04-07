@@ -1,0 +1,28 @@
+<div data-target=".section2" class="section section1 salt-and-pepper">
+    phrase in here
+</div>
+
+<div data-target=".section3" class="section section2 white">
+    phrase in here
+</div>
+
+<div data-target=".section4" class="section section3 black">
+    phrase in here
+</div>
+
+==========
+
+html, body { height: 100%; }
+
+.section {
+    height: 100%;
+}
+
+==========
+
+$('.section').click(function(event) {
+    var target   = $(this).data('target'),
+        offset_y = $(target).offset().top;
+    
+    $('html, body').animate({ 'scrollTop': offset_y });
+});
