@@ -18,7 +18,7 @@ $('.bar-off').hover(function() {
 // });
 
 
-$('.section, .section2').click(function(event) {
+$('.section, .section2, .section3, .section4, .section5, .section6, .section7, .section8, .section9, .section10, .section11, .section12').click(function(event) {
     var text     =  $(this).children('.text'),
         target   = $(this).data('target'),
         offset_y = $(target).offset().top;
@@ -29,7 +29,7 @@ $('.section, .section2').click(function(event) {
 
 });
 
-$('section3').click(function(event) {
+$('.usection, .usection2, .usection3, .usection4, .usection5, .usection6, .usection7, .usection8, .usection9, .usection10, .usection11, .usection12').click(function(event) {
     var text     =  $(this).children('.text'),
         target   = $(this).data('target'),
         offset_y = $(target).offset().top;
@@ -39,3 +39,4 @@ $('section3').click(function(event) {
     $('html, body').delay(1000).animate({ 'scrollTop': offset_y });
 
 });
+
