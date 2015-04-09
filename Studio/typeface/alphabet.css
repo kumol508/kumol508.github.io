@@ -68,6 +68,12 @@ body {
     border:6.5px;
 }
 
+.bar:hover {
+    transition: all 0.5s ease;
+    opacity:0;
+    top:150px;
+}
+
 .bar-off {
     transition: all .5s ease;
     background:white;
@@ -75,6 +81,11 @@ body {
     border:6.5px;
 }
 
+.bar-off:hover {
+    transition: all 0.5s ease;
+    opacity:0;
+    top:150px;
+}
 
 .bar-transition {
     transition: all .5s ease;
@@ -911,4 +922,8 @@ height:6.5;
 	border-left: 6.5px solid transparent;
 	left:0;
 	top:26px;
+}
+
+.hide {
+    background-color:transparent;
 }

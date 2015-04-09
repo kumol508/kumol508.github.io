@@ -40,18 +40,6 @@ body {
     text-align:center;    
 }
 
-.bar:hover {
-    transition: all 0.5s ease;
-    opacity:0;
-    top:150px;
-}
-
-.bar-off:hover {
-    transition: all 0.5s ease;
-    opacity:0;
-    top:150px;
-}
-
 .wrapper {
     margin: 0px auto;
     width:100%;
