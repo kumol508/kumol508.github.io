@@ -16,6 +16,15 @@ body {
     left:350;
 }
 
+.texttransition {
+    position:fixed;
+    text-align:center;
+    margin:0 auto;
+    top:250;
+    left:350;
+}
+
+
 .transition {
     transition: all 0.5s ease;
     opacity:0;
@@ -59,12 +68,6 @@ body {
     border:6.5px;
 }
 
-.bar:hover {
-    transition: all 0.5s ease;
-    opacity:0;
-    top:150px;
-}
-
 .bar-off {
     transition: all .5s ease;
     background:white;
@@ -72,14 +75,19 @@ body {
     border:6.5px;
 }
 
-.bar-off:hover {
-    transition: all 0.5s ease;
-    opacity:0;
-    top:150px;
-}
 
 .bar-transition {
-    background:none;}
+    transition: all .5s ease;
+    background:black;
+    position:absolute;
+    border:6.5px;
+    
+}
+
+.bar-transition:hover {
+    transition: all 0.5s ease;
+    background:white;
+}
 
 .ahorizontal {
     height:6.5px;

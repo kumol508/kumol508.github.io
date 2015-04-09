@@ -1,0 +1,24 @@
+.texttransition {
+    position:fixed;
+    text-align:center;
+    margin:0 auto;
+    top:250;
+    left:350;
+}
+
+.texttransition:hover {
+    transition: all 1s ease;
+    opacity:0;
+}
+
+.bar:hover {
+    transition: all 0.5s ease;
+    opacity:0;
+    top:150px;
+}
+
+.bar-off:hover {
+    transition: all 0.5s ease;
+    opacity:0;
+    top:150px;
+}
