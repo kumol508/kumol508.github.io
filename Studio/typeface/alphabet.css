@@ -896,6 +896,19 @@ height:6.5;
     left:6.5;
 }
 
-.hide {
-    background-color: transparent;
+.period-tail {
+    width:6.5px;
+    height:6.5px;
+    left:0px;
+    top:26px;
+}
+
+
+.comma {
+	width: 0;
+	height: 0;
+	border-top: 6.5px solid black;
+	border-left: 6.5px solid transparent;
+	left:0;
+	top:26px;
 }
