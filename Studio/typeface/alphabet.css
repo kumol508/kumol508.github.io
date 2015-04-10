@@ -1,6 +1,18 @@
 body {
-    font-size:0;
+    font-size:12;
+    font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+    font-weight:12px;
+    color: black;
 }
+
+head {font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+    font-weight:12px;
+    color: black;}  
+    
+a {color:black;
+}    
+
+a:visited {color:black;}
 
 .word-wrapper {
     display:inline-block;
