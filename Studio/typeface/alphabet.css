@@ -927,3 +927,17 @@ height:6.5;
 .hide {
     background-color:transparent;
 }
+
+.vertical1 {
+    height:26px;
+    width:6.5px;
+    left:6.5;
+    top:6.5;
+}
+
+.top1 {
+    left:0;
+    top:0;
+    width:6.5;
+    height:6.5;
+}
