@@ -935,6 +935,15 @@ height:6.5;
 	left:0;
 }
 
+.comma-off {
+    width:0;
+    height:0;
+	border-top: 8px solid white;
+	border-left: 8px solid transparent;
+	left:0;
+}
+
+
 .hide {
     background-color:transparent;
 }
