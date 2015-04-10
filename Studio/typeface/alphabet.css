@@ -916,16 +916,45 @@ height:6.5;
 
 
 .comma {
-	width: 0;
-	height: 0;
-	border-top: 6.5px solid black;
-	border-left: 6.5px solid transparent;
+    width:0;
+    height:0;
+	border-top: 8px solid black;
+	border-left: 8px solid transparent;
 	left:0;
-	top:26px;
 }
 
 .hide {
     background-color:transparent;
+}
+
+.vertical0 {
+    height:19.5px;
+    width:6.5px;
+}
+
+.horizontal0 {
+    height:6.5px;
+    width:19.5px;
+}
+
+.vl0 {
+    top:6.5;
+    left:0;
+}
+
+.vr0 {
+    top:6.5;
+    left:13;
+}
+
+.htop0 {
+    top:0;
+    left:0;
+}
+
+.hbot0 {
+    top:26;
+    left:0;
 }
 
 .vertical1 {
@@ -940,4 +969,294 @@ height:6.5;
     top:0;
     width:6.5;
     height:6.5;
+}
+
+.vertical2 {
+    height:13px;
+    width:6.5px;
+}
+
+.horizontal2 {
+    height:6.5px;
+    width:13px;
+}
+
+.vleft2 {
+    top:19.5;
+    left:0;
+}
+
+.vright2 {
+    top:0;
+    left:13;
+}
+
+.htop2 {
+    top:0;
+    left:0;
+}
+
+.hmid2 {
+    top:13;
+    left:6.5;
+}
+
+.hbot2 {
+    top:26;
+    left:6.5;
+}
+
+.vertical3 {
+    height:13px;
+    width:6.5px;
+}
+
+.horizontal3 {
+    height:6.5px;
+    width:13px;
+}
+
+.vtop3 {
+    top:0;
+    left:13;
+}
+
+.vbot3 {
+    top:19.5;
+    left:13;
+}
+
+.htop3 {
+    top:0;
+    left:0;
+}
+
+.hbot3 {
+    top:26;
+    left:0;
+}
+
+.mid3 {
+    top:13;
+    left:6.5;
+    width:6.5;
+    height:6.5;
+}
+
+.vertical4 {
+    height:13px;
+    width:6.5px;
+}
+
+.horizontal4 {
+    height:6.5px;
+    width:13px;
+}
+
+.vtopl4 {
+    top:0;
+    left:0;
+}
+
+.vtopr4 {
+    top:0;
+    left:13;
+}
+
+.vbot4 {
+    top:19.5;
+    left:13;
+}
+
+.h4 {
+    top:13;
+    left:0;
+}
+
+.vertical5 {
+    height:13px;
+    width:6.5px;
+}
+
+.horizontal5 {
+    height:6.5px;
+    width:13px;
+}
+
+.vtop5 {
+    top:0;
+    left:0;
+}
+
+.vbot5 {
+    top:19.5;
+    left:13;
+}
+
+.htop5 {
+    top:0;
+    left:6.5;
+}
+
+.hmid5 {
+    top:13;
+    left:0;
+}
+
+.hbot5 {
+    top:26;
+    left:0;
+}
+
+.vertical6 {
+    height:13px;
+    width:6.5px;
+}
+
+.horizontal6 {
+    height:6.5px;
+    width:13px;
+}
+
+.vtop6 {
+    top:6.5;
+    left:0;
+}
+
+.vbot6 {
+    top:19.5;
+    left:13;
+}
+
+.htop6 {
+    top:0;
+    left:0;
+}
+
+.hmid6 {
+    top:13;
+    left:0;
+}
+
+.hbot6 {
+    top:26;
+    left:0;
+}
+
+.vertical7 {
+    height:26px;
+    width:6.5px;
+}
+
+.horizontal7 {
+    height:6.5px;
+    width:13px;
+}
+
+.v7 {
+    top:6.5;
+    left:13;
+}
+
+.h7 {
+    top:0;
+    left:0;
+}
+
+.vertical8 {
+    height:26px;
+    width:6.5px;
+}
+
+.horizontal8 {
+    height:6.5px;
+    width:6.5px;
+}
+
+.vleft8 {
+    top:0;
+    left:13;
+}
+
+.vright8 {
+    top:6.5;
+    left:0;
+}
+
+.htop8 {
+    top:0;
+    left:6.5;
+}
+
+.hmid8 {
+    top:13;
+    left:6.5;
+}
+
+.hbot8 {
+    top:26;
+    left:6.5;
+}
+
+.vertical9 {
+    height:13px;
+    width:6.5px;
+}
+
+.horizontal9 {
+    height:6.5px;
+    width:13px;
+}
+
+.vtop9 {
+    top:6.5;
+    left:0;
+}
+
+.vtopr9 {
+    top:6.5;
+    left:13;
+}
+
+.vbotr9 {
+    top:19.5;
+    left:13;
+}
+
+.htop9 {
+    top:0;
+    left:0;
+}
+
+.hbot9 {
+    top:13;
+    left:0;
+}
+
+.verticalex {
+    height:13px;
+    width:6.5px;
+    left:6.5;
+    top:6.5;
+}
+
+.botex {
+    left:6.5;
+    top:26;
+    width:6.5;
+    height:6.5;
+}
+
+.horizontald1 {
+    height:6.5px;
+    width:13px;
+    left:0;
+    top:13;
+}
+
+.horizontald2 {
+    height:6.5px;
+    width:19.5px;
+    left:0;
+    top:26;
 }
