@@ -3,10 +3,36 @@ body {
     height:800;
 }
 
+.content {
+    position:fixed;
+    width:1100;
+    top:50;
+    left:30;
+    margin:0 auto;
+}
+
+.info {
+    position:absolute;
+    left:110px;
+    top:20px;
+    font-family:courier;
+    font-size:12px;
+    color:black;
+}
+
+.info2 {
+    position:absolute;
+    left:60px;
+    top:70px;
+    font-family:courier;
+    font-size:12px;
+    color:black;
+}
+
 .harry-holder{
     width:250;
-    position:fixed;
-    top:91;
+    position:absolute;
+    top:140;
     left:220;
 }
 
@@ -17,8 +43,8 @@ body {
 
 .headlines-holder{
     width:500;
-    position:fixed;
-    top:91;
+    position:absolute;
+    top:140;
     left:500;
     border:10px solid yellow;
     z-index:1000;
@@ -31,10 +57,10 @@ body {
 }
 
 .stickers-holder{
-    position:fixed;
+    position:absolute;
     z-index:102;
-    top:91;
-    left:1050;
+    top:20;
+    left:60;
 }
 
 .go-button{
@@ -44,9 +70,9 @@ body {
     border-radius:100%;
     font-family:courier;
     font-size:12px;
-    top:91px;
+    top:140px;
     left:60px;
-    position:fixed;
+    position:absolute;
     color:black;
     line-height:100px;
     text-align:center;
@@ -61,12 +87,13 @@ body {
 
 .stickers-holder img{
     position:absolute;
-    width:152px;
+    max-height:50px;
+    max-width:50;
 }
 
 .sidebar {
-    position:fixed;
-    top:200;
+    position:absolute;
+    top:249;
     left:40;
     font-family:courier;
     font-size:12px;
@@ -85,15 +112,4 @@ a:visited {
 }
 a:hover {
     color:red;
-}
-
-.bharry-holder{
-    position:fixed;
-    top:400;
-    left:220;
-}
-
-.bharry-holder img {
-    width:100%;
-    display:inline-block;
 }
