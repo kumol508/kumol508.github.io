@@ -30,10 +30,6 @@ var cats = [
         var newheight = Math.floor(Math.random()*100) + 100 + "px";    
     
     
-        $(".line").css("height",newheight);
-    
-    
-    
         for (var increment = 0 ; increment < 100; increment++) {
         $("body").append("<div class='dot'></div>");}
         

@@ -1,0 +1,111 @@
+body{
+    width:960;
+    height:600;
+}
+
+.content{
+    width:960;
+    margin:0 auto;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.header {
+    position:absolute;
+    top:20;
+    left:20;
+}
+
+.main{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 24px;
+}
+
+.sub {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 10px;
+}
+
+.footer {
+    position:absolute;
+    bottom:20;
+    right:20;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    text-align:right;
+}
+
+.wheel{
+    margin:0 auto;
+}
+
+.go-button{
+    background-color:#e5463f;
+    width:120;
+    height:120;
+    border-radius:100%;
+    top:243px;
+    left:240px;
+    color:white;
+    line-height:100px;
+    text-align:center;
+    z-index:1000;
+    position:absolute;
+}
+
+.go-button:hover {
+    border:2pt solid #00ffff;
+}
+
+.nah{
+    background-color:#d03e38;
+    width:247;
+    height:247;
+    border-radius:100%;
+    top:175px;
+    left:180px;
+    color:white;
+    line-height:100px;
+    text-align:center;
+    z-index:800;
+    position:absolute;
+}
+
+.nah:hover {
+    border:2pt solid #00ffff;
+}
+
+.you-wish{
+    background-color:#b43531;
+    width:410;
+    height:410;
+    border-radius:100%;
+    top:95px;
+    left:95px;
+    color:white;
+    line-height:100px;
+    text-align:center;
+    z-index:600;
+    position:absolute;
+}
+
+.you-wish:hover {
+    border:2pt solid #00ffff;
+}
+
+.most-def{
+    background-color:#972e28;
+    width:546;
+    height:546;
+    border-radius:100%;
+    top:25px;
+    left:30px;
+    color:white;
+    line-height:100px;
+    text-align:center;
+    z-index:400;
+    position:absolute;
+}
+
+.most-def:hover {
+    border:2pt solid #00ffff;
+}
