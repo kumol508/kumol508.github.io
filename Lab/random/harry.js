@@ -36,7 +36,13 @@ var harry = [
     
     "http://i.imgur.com/LF3pfgg.gif",
     
-    "http://25.media.tumblr.com/3be6a66508ad0675f3e0aedb16b4f97e/tumblr_ml99pyLcY61qa051so2_250.gif"
+    "http://25.media.tumblr.com/3be6a66508ad0675f3e0aedb16b4f97e/tumblr_ml99pyLcY61qa051so2_250.gif",
+    
+    "http://33.media.tumblr.com/2c21b41292d9cfa3f4bd7fb57660de6f/tumblr_inline_nijtnp8mkp1qi4yia.gif",
+    
+    "http://38.media.tumblr.com/bd4ec68c58b73631e81a8dd43ceda9b4/tumblr_inline_nijtpimi7c1qi4yia.gif",
+    
+    "http://31.media.tumblr.com/d3923c6abe6571a780a6df8cc97db53e/tumblr_inline_nijtpeWqsE1qi4yia.gif"
     
     ];
     
@@ -82,7 +88,17 @@ var headlines = [
     
     ];    
     
-    
+    var bharry = [
+        "http://33.media.tumblr.com/685671c37b11bb508a002eb9090f3762/tumblr_inline_nijtk2IiUd1qi4yia.gif", 
+        "http://38.media.tumblr.com/038ffae19fc41a45a99283e8a359eb10/tumblr_inline_nijto4kfZ21qi4yia.jpg", 
+        "http://38.media.tumblr.com/a1c76d673c043e5f837ec23a393b3ba2/tumblr_inline_nijto4xDqb1qi4yia.jpg", 
+        "http://33.media.tumblr.com/02cc214357ff3da68c1caddaef5600e9/tumblr_inline_nijto5YaRr1qi4yia.jpg", 
+        "http://33.media.tumblr.com/ab103cf950a8c1dde7b0d58da4e18968/tumblr_inline_nijtokBKoE1qi4yia.jpg", 
+        "http://33.media.tumblr.com/8dbe6fd5b407498fa4823199fc9f23b7/tumblr_inline_nijtp1cUyf1qi4yia.gif", 
+        "http://33.media.tumblr.com/ea18452126531917a15390fb766b5b28/tumblr_inline_nijtpxt6x41qi4yia.jpg",
+        "http://33.media.tumblr.com/95afcff0797119250c2111b0a0fd9c42/tumblr_inline_nijtpsuS6M1qi4yia.gif"
+        ];
+        
     var stickers = [
         "http://i122.photobucket.com/albums/o266/jvickers86/chiquita2.gif", 
         "http://ih0.redbubble.net/image.14893215.6342/sticker,375x360.u1.png", 
@@ -91,6 +107,8 @@ var headlines = [
         ];
         
         var selectedstickers = false;
+        var selectedharry = false;
+        var selectedheadlines = false;
     
     $(".go-button").click(function(){
         var nextstickers = stickers[Math.floor(Math.random()*stickers.length)];
@@ -98,25 +116,31 @@ var headlines = [
             nextstickers = stickers[Math.floor(Math.random()*stickers.length)]};
             
             selectedstickers = nextstickers;
+        
+        var nextharry = harry[Math.floor(Math.random()*harry.length)];
+        while (selectedharry == nextharry) {
+            nextharry = harry[Math.floor(Math.random()*harry.length)]};
+            
+            selectedharry = nextharry;
+            
+        var nextheadlines = headlines[Math.floor(Math.random()*headlines.length)];
+        while (selectedheadlines == nextheadlines) {
+            nextheadlines = headlines[Math.floor(Math.random()*headlines.length)]};
+            
+            selectedheadlines = nextheadlines;    
     
         $(".stickers-holder").html('<img src="'+ stickers[Math.floor(Math.random()*stickers.length)]+'">');
-        $(".harry-holder").html('<img src="'+ harry[Math.floor(Math.random()*harry.length)]+'">');
-        var newheight = Math.floor(Math.random()*100) + 100 + "px";    
+        $(".harry-holder").html('<img src="'+ harry[Math.floor(Math.random()*harry.length)]+'">');  
         $(".headlines-holder").html('<img src="'+ headlines[Math.floor(Math.random()*headlines.length)]+'">');
-        var newheight = Math.floor(Math.random()*100) + 100 + "px";
     
-        $(".line").css("height",newheight);
-    
-    
-    
-        for (var increment = 0 ; increment < 100; increment++) {
-        $("body").append("<div class='stickers'></div>");}
         
-        $(".stickers").each(function() {
-        var newtop= Math.floor(Math.random()*100) + "%";
-        var newleft= Math.floor(Math.random()*100) + "%";
-       $(this).css("top",newtop) 
-       $(this).css("left",newleft) 
-    });
     
+    $(".bharry").mouseenter(function(){
+    
+    for (var increment = 0 ; increment < 3; increment++) {
+        $(".bharry-holder").html('<img src="'+ bharry[Math.floor(Math.random()*bharry.length)]+'">');
+    }
+               
+        
+    }); 
     });  
