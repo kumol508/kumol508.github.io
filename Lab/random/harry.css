@@ -87,19 +87,6 @@ a:hover {
     color:red;
 }
 
-
-.tweet img {
-    width:100px;
-}
-
-.tweet:hover:after{
-    content: url(tweet.png); 
-    display: block;
-    position: absolute;
-    left: 10px; 
-    z-index:1500;
-}
-
 .bharry-holder{
     position:fixed;
     top:400;
@@ -109,16 +96,4 @@ a:hover {
 .bharry-holder img {
     width:100%;
     display:inline-block;
-}
-
-.sticker:hover:after {
-    content: url(sticker.jpg); 
-    display: block;
-    position: absolute;
-    left:400px; 
-    z-index:2000;
-}
-
-.sticker img {
-    width:500px;
 }

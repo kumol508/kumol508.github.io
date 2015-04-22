@@ -134,13 +134,4 @@ var headlines = [
         $(".headlines-holder").html('<img src="'+ headlines[Math.floor(Math.random()*headlines.length)]+'">');
     
         
-    
-    $(".bharry").mouseenter(function(){
-    
-    for (var increment = 0 ; increment < 3; increment++) {
-        $(".bharry-holder").html('<img src="'+ bharry[Math.floor(Math.random()*bharry.length)]+'">');
-    }
-               
-        
-    }); 
     });  
