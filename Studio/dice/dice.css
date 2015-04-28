@@ -1,111 +1,219 @@
 body{
     width:960;
-    height:600;
+    height:1600;
 }
 
 .content{
     width:960;
+    left:36;
+    height:800px;
     margin:0 auto;
     font-family: "Courier New", Courier, monospace;
-}
-
-.header {
-    position:absolute;
-    top:20;
-    left:20;
+    position:relative;
+    padding-top:20;
 }
 
 .main{
     font-family: "Courier New", Courier, monospace;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .sub {
     font-family: "Courier New", Courier, monospace;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .footer {
     position:absolute;
-    bottom:20;
-    right:20;
+    top:550;
+    left:36;
     font-family: "Courier New", Courier, monospace;
     font-size: 18px;
-    text-align:right;
+    text-align:left;
 }
 
-.wheel{
+.line {
+    position:absolute;
+    background-color:black;
+    width:950;
+    height:5;
+    top:513;
+    left:36;
+}
+
+.frame1title img{
+    position:absolute;
+    width:166;
+}
+
+.frame2title img{
+    position:absolute;
+    width:224;
+}
+
+.frame3title img{
+    position:absolute;
+    width:174;
+}
+
+.frame4title img{
+    position:absolute;
+    width:186;
+}
+
+.text1 {
+    position:absolute;
+    left:128;
+    top:50;
+}
+
+.text2 {
+    position:absolute;
+    left:181;
+    top:80;
+}
+
+.text3 {
+    position:absolute;
+    left:155;
+    top:50;
+}
+
+.text4 {
+    position:absolute;
+    left:148;
+    top:80;
+}
+
+.frame1title {
+    position:absolute;
+    text-align:center;
+    width:166;
+    height:137;
+    font-family:courier;
+    font-size:24;
+    left:0;
+    top:176;
+}
+
+.frame2title {
+    position:absolute;
+    text-align:center;
+    width:166;
+    height:137;
+    font-family:courier;
+    font-size:24;
+    left:210;
+    top:151;
+}
+
+.frame3title {
+    position:absolute;
+    text-align:center;
+    width:166;
+    height:137;
+    font-family:courier;
+    font-size:24;
+    left:463;
+    top:180;
+}
+
+.frame4title {
+    position:absolute;
+    text-align:center;
+    width:166;
+    height:137;
+    font-family:courier;
+    font-size:24;
+    left:665;
+    top:151;
+}
+
+.content2{
+    width:960;
+    left:36;
+    height:800px;
     margin:0 auto;
-}
-
-.go-button{
-    background-color:#e5463f;
-    width:120;
-    height:120;
-    border-radius:100%;
-    top:243px;
-    left:240px;
-    color:white;
-    line-height:100px;
-    text-align:center;
-    z-index:1000;
+    font-family: "Courier New", Courier, monospace;
     position:absolute;
+    top:720;
+    padding-top:20;
 }
 
-.go-button:hover {
-    border:2pt solid #00ffff;
-}
-
-.nah{
-    background-color:#d03e38;
-    width:247;
-    height:247;
-    border-radius:100%;
-    top:175px;
-    left:180px;
-    color:white;
-    line-height:100px;
-    text-align:center;
-    z-index:800;
+.frame1 img {
     position:absolute;
+    width:480;
+    margin:0 auto;
+    top:43;
+    left:238;
+    z-index:9999;
 }
 
-.nah:hover {
-    border:2pt solid #00ffff;
-}
-
-.you-wish{
-    background-color:#b43531;
-    width:410;
-    height:410;
-    border-radius:100%;
-    top:95px;
-    left:95px;
-    color:white;
-    line-height:100px;
-    text-align:center;
-    z-index:600;
+.friends-holder {
     position:absolute;
+    top:87;
+    left:248;
 }
 
-.you-wish:hover {
-    border:2pt solid #00ffff;
+.friends-holder img {
+   position:absolute;
+   width:460;
 }
 
-.most-def{
-    background-color:#972e28;
-    width:546;
-    height:546;
-    border-radius:100%;
-    top:25px;
-    left:30px;
-    color:white;
-    line-height:100px;
-    text-align:center;
-    z-index:400;
+.reveal1 {
     position:absolute;
+    font-family:courier;
+    font-size:12;
+    left:36;
 }
 
-.most-def:hover {
-    border:2pt solid #00ffff;
+.more1 {
+    right:0;
+    position:absolute;
+    font-size:12;
+    font-family:courier;
+}
+
+.content3{
+    width:960;
+    left:36;
+    height:800px;
+    margin:0 auto;
+    font-family: "Courier New", Courier, monospace;
+    position:absolute;
+    top:1520;
+    padding-top:20;
+}
+
+.frame3 img {
+    position:absolute;
+    width:480;
+    margin:0 auto;
+    top:43;
+    left:238;
+    z-index:9999;
+}
+.graduation-holder {
+    position:absolute;
+    top:87;
+    left:268;
+}
+
+.graduation-holder img {
+   position:absolute;
+   width:400;
+}
+
+.reveal2 {
+    position:absolute;
+    font-family:courier;
+    font-size:12;
+    left:36;
+}
+
+.more2 {
+    right:0;
+    position:absolute;
+    font-size:12;
+    font-family:courier;
 }
