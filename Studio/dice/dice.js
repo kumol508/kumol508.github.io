@@ -1,33 +1,59 @@
-    var friends = [
-        "images/bey.jpg", "images/oddfuture.jpg", "images/annleslie.jpg", "images/turkey.jpg","images/princes.jpg","images/kardash.jpg"];
-    
-    var graduation = [
-        "images/hsm.jpg", "images/bey.jpg"];
-    
-    var wedding = [
-        "twilightwed.jpg", "haz.jpg"];
+$('.friend-button').click(function() {
+    var friend_options        = $('.friends li'),
+        friend_options_length = friend_options.length,
+        random_num            = Math.floor(Math.random() * friend_options_length),
+        selected_friend       = friend_options[random_num],
+        selected_image        = $(selected_friend).data('img'),
+        selected_friendtext       = $(selected_friend).data('text');
         
-    var home = [
-        ""];    
+        $('.friends li').addClass('.optionselected');
+        $('.friend-holder').html('<img src="'+selected_image+'">'),
+        $('.selectedfriend-holder').html('<img src="'+selected_image+'">'),
+        $('.friend-text').html(selected_friendtext);
+});
+
+$('.graduation-button').click(function() {
+    var graduation_options        = $('.graduation li'),
+        graduation_options_length = graduation_options.length,
+        random_num            = Math.floor(Math.random() * graduation_options_length),
+        selected_graduation       = graduation_options[random_num],
+        selected_image        = $(selected_graduation).data('img'),
+        selected_gradtext       = $(selected_graduation).data('text');
         
-        var selectedfriends = false;
-        var selectedgraduation = false;
-        var selectedwedding = false;
-        var selectedhome = false;
-    
-    $(".reveal1").click(function(){
-        var nextfriends = friends[Math.floor(Math.random()*friends.length)];
-        while (selectedfriends == nextfriends) {
-            nextfriends = friends[Math.floor(Math.random()*friends.length)]};
-            
-            selectedfriends = nextfriends;
-    
-        $(".friends-holder").html('<img src="'+ friends[Math.floor(Math.random()*friends.length)]+'">'); 
+        $('.graduation-holder').html('<img src="'+selected_image+'">');
+        $('.selectedgraduation-holder').html('<img src="'+selected_image+'">');
+        $('.graduation-text').html(selected_gradtext);
+});
+
+$('.home-button').click(function() {
+    var home_options        = $('.home li'),
+        home_options_length = home_options.length,
+        random_num            = Math.floor(Math.random() * home_options_length),
+        selected_home       = home_options[random_num],
+        selected_image        = $(selected_home).data('img'),
+        selectedhome_text       = $(selected_home).data('text');
         
+        $('.home-holder').html('<img src="'+selected_image+'">');
+        $('.selectedhome-holder').html('<img src="'+selected_image+'">');
+        $('.home-text').html(selectedhome_text);
         
-    });
-    
-    $('.content, .content2, .content3, .content4, .content5').click(function(event) {
+});
+
+$('.wedding-button').click(function() {
+    var wedding_options        = $('.wedding li'),
+        wedding_options_length = wedding_options.length,
+        random_num            = Math.floor(Math.random() * wedding_options_length),
+        selected_wedding       = wedding_options[random_num],
+        selected_image        = $(selected_wedding).data('img'),
+        selectedwedding_text  = $(selected_wedding).data('text');
+        
+        $('.wedding-holder').html('<img src="'+selected_image+'">');
+        $('.selectedwedding-holder').html('<img src="'+selected_image+'">');
+        $('.wedding-text').html(selectedwedding_text);
+});
+
+
+    $('.content,.content2,.content3, .content4, .content5,.content6, .content7,.content8,.content9,.content10,.content11,.content12').click(function(event) {
     var text     =  $(this).children('.text'),
         target   = $(this).data('target'),
         offset_y = $(target).offset().top;
@@ -36,37 +62,37 @@
     
     $('html, body').delay(1000).animate({ 'scrollTop': offset_y });
 
-});
-    
-    (".reveal2").click(function(){
-        var nextgraduation = graduation[Math.floor(Math.random()*graduation.length)];
-        while (selectedgraduation == nextgraduation) {
-            nextgraduation = graduation[Math.floor(Math.random()*graduation.length)]}
-            
-            selectedgraduation = nextgraduation;
-    
-        $(".graduation-holder").html('<img src="'+ graduation[Math.floor(Math.random()*graduation.length)]+'">');  
-    
+    });
+   
+
+  $(".frame1title").mouseenter(function(){
+        $(".friend-text").show();
+    });
+
+  $(".frame1title").mouseleave(function(){
+        $(".friend-text").hide();
     });
     
-    (".reveal3").click(function(){
-      
-        var nextwedding = wedding[Math.floor(Math.random()*wedding.length)];
-        while (selectedwedding == nextwedding) {
-            nextwedding = wedding[Math.floor(Math.random()*wedding.length)]};
-            
-            selectedwedding = nextwedding;
+  $(".frame2title").mouseenter(function(){
+        $(".graduation-text").show();
+    });
+
+  $(".frame2title").mouseleave(function(){
+        $(".graduation-text").hide();
+    }); 
     
-        $(".wedding-holder").html('<img src="'+ wedding[Math.floor(Math.random()*wedding.length)]+'">'); 
-    
+  $(".frame3title").mouseenter(function(){
+        $(".home-text").show();
+    });
+
+  $(".frame3title").mouseleave(function(){
+        $(".home-text").hide();
     });    
-        
-    (".reveal4").click(function(){    
-        var nexthome = home[Math.floor(Math.random()*home.length)];
-        while (selectedhome == nexthome) {
-            nexthome = home[Math.floor(Math.random()*home.length)]};
-            
-            selectedhome = nexthome;
-        
-        $(".home-holder").html('<img src="'+ home[Math.floor(Math.random()*home.length)]+'">');
-    });  
+    
+  $(".frame4title2").mouseenter(function(){
+        $(".wedding-text").show();
+    });
+
+  $(".frame4title2").mouseleave(function(){
+        $(".wedding-text").hide();
+    });    

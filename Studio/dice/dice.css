@@ -5,60 +5,274 @@ body{
 
 .content{
     width:960;
-    left:36;
     height:800px;
     margin:0 auto;
     font-family: "Courier New", Courier, monospace;
     position:relative;
-    padding-top:20;
 }
 
-.main{
-    font-family: "Courier New", Courier, monospace;
-    font-size: 18px;
-}
-
-.sub {
-    font-family: "Courier New", Courier, monospace;
-    font-size: 12px;
-}
-
-.footer {
+.frame1title {
     position:absolute;
-    top:550;
-    left:36;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 18px;
-    text-align:left;
+    text-align:center;
+    width:166;
+    height:137;
+    font-family:courier;
+    font-size:24;
+    top:330;
+    z-index:100;
 }
 
-.line {
+.frame2title {
     position:absolute;
-    background-color:black;
-    width:950;
-    height:5;
-    top:513;
-    left:36;
+    text-align:center;
+    width:166;
+    height:137;
+    font-family:courier;
+    font-size:24;
+    left:175;
+    top:306;
+    z-index:100;
+}
+
+.frame3title {
+    position:absolute;
+    text-align:center;
+    width:166;
+    height:137;
+    font-family:courier;
+    font-size:24;
+    left:407;
+    top:330;
+    z-index:100;
+}
+
+.frame4title {
+    position:absolute;
+    text-align:center;
+    width:166;
+    height:137;
+    font-family:courier;
+    font-size:24;
+    left:595;
+    top:306;
+    z-index:100;
 }
 
 .frame1title img{
     position:absolute;
     width:166;
+    z-index:100;
 }
 
 .frame2title img{
     position:absolute;
     width:224;
+    z-index:100;
 }
 
 .frame3title img{
     position:absolute;
     width:174;
+    z-index:100;
 }
 
 .frame4title img{
     position:absolute;
     width:186;
+    z-index:100;
+}
+
+
+.frame1head {
+    position:absolute;
+    text-align:center;
+    width:78;
+    height:64;
+    font-family:courier;
+    font-size:11.25;
+    left:236;
+    top:48;
+    z-index:100;
+}
+
+.frame1heado {
+    position:absolute;
+    text-align:center;
+    width:78;
+    height:64;
+    font-family:courier;
+    font-size:11.25;
+    left:236;
+    top:48;
+    z-index:100;
+    opacity:0.5;
+}
+
+.frame1headselected {
+    position:absolute;
+    text-align:center;
+    width:75;
+    height:60;
+    font-family:courier;
+    font-size:11.25;
+    left:276;
+    top:50;
+    background:#f2c742;
+    z-index:50;
+}
+
+.frame2head {
+    position:absolute;
+    text-align:center;
+    width:105;
+    height:89;
+    font-family:courier;
+    font-size:11.25;
+    left:315;
+    top:36;
+    z-index:100;
+}
+
+.frame2heado {
+    position:absolute;
+    text-align:center;
+    width:105;
+    height:89;
+    font-family:courier;
+    font-size:11.25;
+    left:315;
+    top:36;
+    z-index:100;
+    opacity:0.5;
+}
+
+.frame2headselected {
+    position:absolute;
+    text-align:center;
+    width:75;
+    height:60;
+    font-family:courier;
+    font-size:11.25;
+    left:385;
+    top:50;
+    background:#f2c742;
+    z-index:50;
+}
+
+.frame3head {
+    position:absolute;
+    text-align:center;
+    width:82;
+    height:62;
+    font-family:courier;
+    font-size:11.25;
+    left:443;
+    top:48;
+    z-index:100;
+}
+
+.frame3heado {
+    position:absolute;
+    text-align:center;
+    width:82;
+    height:62;
+    font-family:courier;
+    font-size:11.25;
+    left:443;
+    top:48;
+    z-index:100;
+    opacity:0.5;
+}
+
+.frame3headselected {
+    position:absolute;
+    text-align:center;
+    width:75;
+    height:60;
+    font-family:courier;
+    font-size:11.25;
+    left:485;
+    top:50;
+    background:#f2c742;
+    z-index:50;
+}
+
+.frame4head {
+    position:absolute;
+    text-align:center;
+    width:87;
+    height:87;
+    font-family:courier;
+    font-size:11.25;
+    left:538;
+    top:36;
+    z-index:100;
+}
+
+.frame4heado {
+    position:absolute;
+    text-align:center;
+    width:87;
+    height:87;
+    font-family:courier;
+    font-size:11.25;
+    left:538;
+    top:36;
+    z-index:100;
+    opacity:0.5;
+}
+
+.frame4headselected {
+    position:absolute;
+    text-align:center;
+    width:80;
+    height:80;
+    font-family:courier;
+    font-size:11.25;
+    left:585;
+    top:40;
+    background:#f2c742;
+    z-index:50;
+}
+
+.frame1head img{
+    position:absolute;
+    width:78;
+}
+
+.frame1heado img{
+    position:absolute;
+    width:78;
+}
+
+.frame2head img{
+    position:absolute;
+    width:105;
+}
+
+.frame2heado img{
+    position:absolute;
+    width:105;
+}
+
+.frame3head img{
+    position:absolute;
+    width:82;
+}
+
+.frame3heado img{
+    position:absolute;
+    width:82;
+}
+
+.frame4head img{
+    position:absolute;
+    width:87;
+}
+
+.frame4heado img{
+    position:absolute;
+    width:87;
 }
 
 .text1 {
@@ -85,135 +299,831 @@ body{
     top:80;
 }
 
-.frame1title {
+.text1head {
     position:absolute;
-    text-align:center;
-    width:166;
-    height:137;
-    font-family:courier;
-    font-size:24;
-    left:0;
-    top:176;
+    left:60;
+    top:25;
 }
 
-.frame2title {
+.text2head {
     position:absolute;
-    text-align:center;
-    width:166;
-    height:137;
-    font-family:courier;
-    font-size:24;
-    left:210;
-    top:151;
+    left:100;
+    top:40;
 }
 
-.frame3title {
+.text3head {
     position:absolute;
-    text-align:center;
-    width:166;
-    height:137;
-    font-family:courier;
-    font-size:24;
-    left:463;
-    top:180;
+    left:75;
+    top:25;
 }
 
-.frame4title {
+.text4head {
     position:absolute;
-    text-align:center;
-    width:166;
-    height:137;
-    font-family:courier;
-    font-size:24;
-    left:665;
-    top:151;
+    left:75;
+    top:40;
 }
 
 .content2{
     width:960;
-    left:36;
     height:800px;
     margin:0 auto;
     font-family: "Courier New", Courier, monospace;
     position:absolute;
-    top:720;
-    padding-top:20;
+    top:800;
 }
 
-.frame1 img {
+.preview1 {
+    top:260;
+    left:106;
+    width:229;
+    height:188;
+    position:absolute;
+    background:#f2c742;
+}
+
+.preview1 img {
+    top:10;
+    left:8;
+    width:211;
+    height:170;
+    position:absolute;
+}
+
+
+.textpreview1 {
+    top:194;
+    left:0;
+    font-family:courier;
+    font-size:14;
+    position:absolute;
+}
+
+.preview2 {
+    top:260;
+    left:366;
+    width:229;
+    height:188;
+    position:absolute;
+    background:#f2c742;
+}
+
+.preview2 img {
+    top:10;
+    left:8;
+    width:211;
+    height:170;
+    position:absolute;
+}
+
+.textpreview2 {
+    top:194;
+    left:0;
+    font-family:courier;
+    font-size:14;
+    position:absolute;
+}
+
+.preview3 {
+    top:260;
+    left:624;
+    width:229;
+    height:188;
+    position:absolute;
+    background:#f2c742;
+}
+
+.preview3 img {
+    top:10;
+    left:8;
+    width:211;
+    height:170;
+    position:absolute;
+}
+
+.textpreview3 {
+    top:194;
+    left:0;
+    font-family:courier;
+    font-size:14;
+    position:absolute;
+}
+
+.first-button {
+	width: 0;
+	height: 0;
+	top:608;
+	left:485;
+	border-left: 12.5px solid transparent;
+	border-top: 25px solid #f2c742;
+	border-right: 12.5px solid transparent;
+	position:absolute;
+}
+
+
+.first-button:hover {
+    border-left: 12.5px solid transparent;
+	border-top: 25px solid red;
+	border-left: 12.5px solid transparent;
+}
+
+.button {
+	width: 0;
+	height: 0;
+	top:608;
+	left:458;
+	border-top: 12.5px solid transparent;
+	border-left: 25px solid #f2c742;
+	border-bottom: 12.5px solid transparent;
+	position:absolute;
+}
+
+.button:hover {
+    border-top: 12.5px solid transparent;
+	border-left: 25px solid red;
+	border-bottom: 12.5px solid transparent;
+}
+
+.button-end {
+	width: 0;
+	height: 0;
+	top:608;
+	left:470;
+	border-top: 12.5px solid transparent;
+	border-left: 25px solid #f2c742;
+	border-bottom: 12.5px solid transparent;
+	position:absolute;
+}
+
+.button-end:hover {
+    border-top: 12.5px solid transparent;
+	border-left: 25px solid red;
+	border-bottom: 12.5px solid transparent;
+}
+
+.buttontext {
+    top:636;
+    left:440;
+    font-family:courier;
+    text-align:center;
+    font-size:18;
+    position:absolute;
+}
+
+.friend-button {
+	width: 0;
+	height: 0;
+	top:608;
+	left:458;
+	border-top: 12.5px solid transparent;
+	border-left: 25px solid #f2c742;
+	border-bottom: 12.5px solid transparent;
+	position:absolute;
+}
+
+.friend-button:hover {
+    border-top: 12.5px solid transparent;
+	border-left: 25px solid red;
+	border-bottom: 12.5px solid transparent;
+}
+
+.graduation-button {
+	width: 0;
+	height: 0;
+	top:608;
+	left:458;
+	border-top: 12.5px solid transparent;
+	border-left: 25px solid #f2c742;
+	border-bottom: 12.5px solid transparent;
+	position:absolute;
+}
+
+.graduation-button:hover {
+    border-top: 12.5px solid transparent;
+	border-left: 25px solid red;
+	border-bottom: 12.5px solid transparent;
+}
+
+.home-button {
+	width: 0;
+	height: 0;
+	top:608;
+	left:458;
+	border-top: 12.5px solid transparent;
+	border-left: 25px solid #f2c742;
+	border-bottom: 12.5px solid transparent;
+	position:absolute;
+}
+
+.home-button:hover {
+    border-top: 12.5px solid transparent;
+	border-left: 25px solid red;
+	border-bottom: 12.5px solid transparent;
+}
+
+.wedding-button {
+	width: 0;
+	height: 0;
+	top:608;
+	left:458;
+	border-top: 12.5px solid transparent;
+	border-left: 25px solid #f2c742;
+	border-bottom: 12.5px solid transparent;
+	position:absolute;
+}
+
+.wedding-button:hover {
+    border-top: 12.5px solid transparent;
+	border-left: 25px solid red;
+	border-bottom: 12.5px solid transparent;
+}
+
+.friend-frame img{
     position:absolute;
     width:480;
     margin:0 auto;
-    top:43;
+    top:165;
     left:238;
-    z-index:9999;
+    z-index:1000;
 }
 
-.friends-holder {
+.graduation-frame img{
     position:absolute;
-    top:87;
-    left:248;
+    width:480;
+    margin:0 auto;
+    top:165;
+    left:238;
+    z-index:1000;
 }
 
-.friends-holder img {
+.home-frame img{
+    position:absolute;
+    width:480;
+    margin:0 auto;
+    top:165;
+    left:238;
+    z-index:1000;
+}
+
+.wedding-frame img{
+    position:absolute;
+    width:480;
+    margin:0 auto;
+    top:165;
+    left:238;
+    z-index:1000;
+}
+
+.friend-holder {
+    position:absolute;
+    top:40;
+    left:30;
+    z-index:900;
+}
+
+.friend-holder img {
    position:absolute;
-   width:460;
+   width:430;
 }
 
-.reveal1 {
+.graduation-holder {
     position:absolute;
+    top:55;
+    left:20;
+    z-index:900;
+}
+
+.graduation-holder img {
+   position:absolute;
+   width:450;
+}
+
+.home-holder {
+    position:absolute;
+    top:35;
+    left:30;
+    z-index:900;
+}
+
+.home-holder img {
+   position:absolute;
+   width:430;
+}
+
+.wedding-holder {
+    position:absolute;
+    top:35;
+    left:30;
+    z-index:900;
+}
+
+.wedding-holder img {
+   position:absolute;
+   width:430;
+   top:175;
+}
+
+.buttontext-select {
+    top:636;
+    left:437;
     font-family:courier;
-    font-size:12;
-    left:36;
+    text-align:center;
+    font-size:18;
+    position:absolute;
 }
 
-.more1 {
-    right:0;
+.buttontext-continue {
+    top:636;
+    left:422;
+    font-family:courier;
+    text-align:center;
+    font-size:18;
     position:absolute;
-    font-size:12;
+}
+
+.buttontext-try {
+    top:636;
+    left:430;
+    font-family:courier;
+    text-align:center;
+    font-size:18;
+    position:absolute;
+}
+
+.text1main {
+    position:absolute;
+    left:55;
+    top:25;
+}
+
+.text2main {
+    position:absolute;
+    left:79;
+    top:40;
+    font-size:9;
+}
+
+.text3main {
+    position:absolute;
+    left:69;
+    top:25;
+}
+
+.text4main {
+    position:absolute;
+    left:65;
+    top:40;
+}
+
+.option1 {
+    top:260;
+    left:348;
+    width:245;
+    height:48;
+    border:1pt solid #46b9de;
+    position:absolute;
+}
+
+.option1holder {
+    width:20;
+    height:48;
+    position:absolute;
+    background:#46b9de;
+}
+
+.option1text {
+    left:40;
+    top:15;
+    font-size:16;
+    font-family:courier;
+    position:absolute;
+}
+
+.option2 {
+    top:320;
+    left:348;
+    width:245;
+    height:48;
+    border:1pt solid #a9cbe8;
+    position:absolute;
+}
+
+.option2holder {
+    width:20;
+    height:48;
+    position:absolute;
+    background:#a9cbe8;
+}
+
+.option2text {
+    left:40;
+    top:15;
+    font-size:16;
+    font-family:courier;
+    position:absolute;
+}
+
+.option3 {
+    top:380;
+    left:348;
+    width:245;
+    height:48;
+    border:1pt solid #e9d6e9;
+    position:absolute;
+}
+
+.option3holder {
+    width:20;
+    height:48;
+    position:absolute;
+    background:#e9d6e9;
+}
+
+.option3text {
+    left:40;
+    top:15;
+    font-size:16;
+    font-family:courier;
+    position:absolute;
+}
+
+.option4 {
+    top:440;
+    left:348;
+    width:245;
+    height:48;
+    border:1pt solid #e89ec4;
+    position:absolute;
+}
+
+.option4holder {
+    width:20;
+    height:48;
+    position:absolute;
+    background:#e89ec4;
+}
+
+.option4text {
+    left:40;
+    top:15;
+    font-size:16;
+    font-family:courier;
+    position:absolute;
+}
+
+.option5 {
+    top:498;
+    left:348;
+    width:245;
+    height:48;
+    border:1pt solid #f47b7a;
+    position:absolute;
+}
+
+.option5holder {
+    width:20;
+    height:48;
+    position:absolute;
+    background:#f47b7a;
+}
+
+.option5text {
+    left:40;
+    top:15;
+    font-size:16;
+    font-family:courier;
+    position:absolute;
+}
+
+.optionselected {
+    font-weight:bold;
+}
+
+.footer {
+    position:absolute;
+    top:186;
+    left:247;
+    text-align:center;
+    font-size:18;
+    font-family:courier;
+}
+
+.footerg {
+    position:absolute;
+    top:186;
+    left:253;
+    text-align:center;
+    font-size:18;
+    font-family:courier;
+}
+
+.footerw {
+    position:absolute;
+    top:186;
+    left:267;
+    text-align:center;
+    font-size:18;
+    font-family:courier;
+}
+
+.footer-end {
+    position:absolute;
+    top:186;
+    left:262;
+    text-align:center;
+    font-size:18;
     font-family:courier;
 }
 
 .content3{
     width:960;
-    left:36;
     height:800px;
     margin:0 auto;
     font-family: "Courier New", Courier, monospace;
     position:absolute;
-    top:1520;
+    top:1600;
     padding-top:20;
 }
 
-.frame3 img {
-    position:absolute;
-    width:480;
+.content4{
+    width:960;
+    height:800px;
     margin:0 auto;
-    top:43;
-    left:238;
-    z-index:9999;
-}
-.graduation-holder {
+    font-family: "Courier New", Courier, monospace;
     position:absolute;
-    top:87;
-    left:268;
+    top:2400;
+    padding-top:20;
 }
 
-.graduation-holder img {
-   position:absolute;
-   width:400;
+.content5{
+    width:960;
+    height:800px;
+    margin:0 auto;
+    font-family: "Courier New", Courier, monospace;
+    position:absolute;
+    top:3200;
+    padding-top:20;
 }
 
-.reveal2 {
+.content6{
+    width:960;
+    height:800px;
+    margin:0 auto;
+    font-family: "Courier New", Courier, monospace;
     position:absolute;
+    top:4000;
+    padding-top:20;
+}
+
+.content7{
+    width:960;
+    height:800px;
+    margin:0 auto;
+    font-family: "Courier New", Courier, monospace;
+    position:absolute;
+    top:4800;
+    padding-top:20;
+}
+
+.content8{
+    width:960;
+    height:800px;
+    margin:0 auto;
+    font-family: "Courier New", Courier, monospace;
+    position:absolute;
+    top:5600;
+    padding-top:20;
+}
+
+.content9{
+    width:960;
+    height:800px;
+    margin:0 auto;
+    font-family: "Courier New", Courier, monospace;
+    position:absolute;
+    top:6400;
+    padding-top:20;
+}
+
+.content10{
+    width:960;
+    height:800px;
+    margin:0 auto;
+    font-family: "Courier New", Courier, monospace;
+    position:absolute;
+    top:7200;
+    padding-top:20;
+}
+
+.content11{
+    width:960;
+    height:800px;
+    margin:0 auto;
+    font-family: "Courier New", Courier, monospace;
+    position:absolute;
+    top:8000;
+    padding-top:20;
+}
+
+.content12{
+    width:960;
+    height:800px;
+    margin:0 auto;
+    font-family: "Courier New", Courier, monospace;
+    position:absolute;
+    top:8800;
+    padding-top:20;
+}
+
+.footer2 {
+    position:absolute;
+    top:686;
+    left:290;
+    text-align:center;
+    font-size:18;
     font-family:courier;
-    font-size:12;
-    left:36;
 }
 
-.more2 {
-    right:0;
+.footer3 {
     position:absolute;
-    font-size:12;
+    top:686;
+    left:305;
+    text-align:center;
+    font-size:18;
     font-family:courier;
 }
+
+.footer4 {
+    position:absolute;
+    top:186;
+    left:300;
+    text-align:center;
+    font-size:18;
+    font-family:courier;
+}
+
+.footer5 {
+    position:absolute;
+    top:186;
+    left:280;
+    text-align:center;
+    font-size:18;
+    font-family:courier;
+}
+
+.footer6 {
+    position:absolute;
+    top:686;
+    left:300;
+    text-align:center;
+    font-size:18;
+    font-family:courier;
+}
+
+.buttontext-reveal {
+    top:636;
+    left:415;
+    font-family:courier;
+    text-align:center;
+    font-size:18;
+    position:absolute;
+}
+
+.buttontext-reveal2 {
+    top:636;
+    left:428;
+    font-family:courier;
+    text-align:center;
+    font-size:18;
+    position:absolute;
+}
+
+.selectedfriend-holder {
+    position:absolute;
+    width:166;
+}
+
+.selectedfriend-holder img {
+    z-index:50;
+    width:150;
+    top:18;
+    left:90;
+    position:absolute;
+}
+
+.selectedgraduation-holder {
+    position:absolute;
+    width:224;
+}
+
+.selectedgraduation-holder img {
+    z-index:99;
+    width:150;
+    top:45;
+    left:120;
+}
+
+.selectedhome-holder {
+    position:absolute;
+    width:174;
+}
+
+.selectedhome-holder img {
+    z-index:99;
+    width:150;
+    top:5;
+    left:100;
+}
+
+.selectedwedding-holder {
+    position:absolute;
+    width:146;
+    z-index:99;
+}
+
+.selectedwedding-holder img {
+    z-index:99;
+    width:100;
+    top:10;
+    left:90;
+    position:absolute;
+}
+
+.frame4title2 {
+    position:absolute;
+    text-align:center;
+    width:166;
+    height:137;
+    font-family:courier;
+    font-size:24;
+    top:330;
+    z-index:100;
+    left:575;
+}
+
+.frame4title2 img{
+    position:absolute;
+    width:166;
+    z-index:100;
+    left:100;
+}
+
+.friend-text {
+    position:absolute;
+    top:470;
+    left:87;
+    font-family:courier;
+    font-size:14;
+    color:black;
+    width:166;
+    height:137;
+}
+
+.graduation-text {
+    position:absolute;
+    left:260;
+    top:500;
+    font-family:courier;
+    font-size:14;
+    color:black;
+    width:224;
+    height:137;
+}
+.homeend {
+    top:467;
+    left:494;
+    width:165;
+    height:15;
+    border:1px solid black;
+    position:absolute;
+    text-align:center;
+}
+.home-text {
+    position:absolute;
+    top:467;
+    left:495;
+    font-family:courier;
+    font-size:14;
+    color:black;
+    width:174;
+    height:137;
+}
+.weddingend {
+    top:470;
+    left:678;
+    width:160;
+    height:15;
+    border:1px solid black;
+    position:absolute;
+}
+.wedding-text {
+    position:absolute;
+    top:490;
+    left:678;
+    font-family:courier;
+    font-size:14;
+    color:black;
+    width:166;
+    height:137;
+}
+
+
