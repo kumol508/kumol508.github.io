@@ -1067,27 +1067,50 @@ body{
     left:100;
 }
 
-.friend-text {
-    position:absolute;
+.friendend {
     top:470;
     left:87;
+    width:155;
+    height:15;
+    border:1px solid black;
+    position:absolute;
+    font-size:12;
+    text-align:center;
+}
+
+.friend-text {
+    position:absolute;
+    top:490;
+    left:87;
     font-family:courier;
-    font-size:14;
     color:black;
     width:166;
     height:137;
+    font-size:12;
+}
+
+.graduationend {
+    top:500;
+    left:260;
+    width:218;
+    height:15;
+    border:1px solid black;
+    position:absolute;
+    font-size:12;
+    text-align:center;
 }
 
 .graduation-text {
     position:absolute;
     left:260;
-    top:500;
+    top:520;
     font-family:courier;
-    font-size:14;
     color:black;
     width:224;
     height:137;
+    font-size:12;
 }
+
 .homeend {
     top:467;
     left:494;
@@ -1098,12 +1121,12 @@ body{
     font-size:12;
     text-align:center;
 }
+
 .home-text {
     position:absolute;
-    top:467;
+    top:487;
     left:495;
     font-family:courier;
-    font-size:14;
     color:black;
     width:174;
     height:137;
@@ -1124,7 +1147,6 @@ body{
     top:490;
     left:678;
     font-family:courier;
-    font-size:14;
     color:black;
     width:166;
     height:137;
