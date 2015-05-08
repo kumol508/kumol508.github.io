@@ -1095,6 +1095,7 @@ body{
     height:15;
     border:1px solid black;
     position:absolute;
+    font-size:12;
     text-align:center;
 }
 .home-text {
@@ -1106,6 +1107,7 @@ body{
     color:black;
     width:174;
     height:137;
+    font-size:12;
 }
 .weddingend {
     top:470;
@@ -1114,6 +1116,8 @@ body{
     height:15;
     border:1px solid black;
     position:absolute;
+    font-size:12;
+    text-align:center;
 }
 .wedding-text {
     position:absolute;
@@ -1124,6 +1128,7 @@ body{
     color:black;
     width:166;
     height:137;
+    font-size:12;
 }
 
 

@@ -53,7 +53,7 @@ $('.wedding-button').click(function() {
 });
 
 
-    $('.content,.content2,.content3, .content4, .content5,.content6, .content7,.content8,.content9,.content10,.content11,.content12').click(function(event) {
+    $('.button,.friend-button,.graduation-button,.home-button,.wedding-button,.button-end').click(function(event) {
     var text     =  $(this).children('.text'),
         target   = $(this).data('target'),
         offset_y = $(target).offset().top;
