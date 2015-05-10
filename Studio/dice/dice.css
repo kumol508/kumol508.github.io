@@ -11,6 +11,25 @@ body{
     position:relative;
 }
 
+.category {
+    position:absolute;
+    text-align:center;
+    width:166;
+    height:137;
+    top:190;
+    left:36;
+    font-size:18;
+    font-weight:bold;
+}
+
+.category img{
+    position:absolute;
+    width:166;
+    height:137;
+    left:0;
+}
+
+
 .frame1title {
     position:absolute;
     text-align:center;

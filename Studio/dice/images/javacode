@@ -1,0 +1,23 @@
+<ul class="friends">
+    <li data-img="oddfuture.jpg">Odd Future</li>
+    <li data-img="beyonce.jpg">Beyonce</li>
+    <li data-img="friend.jpg">Friend</li>
+    <li data-img="another.jpg">Another</li>
+<ul>
+
+<div class="friend-button">
+    Select my friend!
+</div>
+
+
+$('.friend-button').click(function() {
+    var friend_options        = $('.friends li'),
+        friend_options_length = friend_options.length,
+        random_num            = Math.ceil(Math.random() * friend_options_length),
+        selected_friend       = friend_options[random_num],
+        selected_image        = $(selected_friend).data('img');
+        
+        $('.friend-frame).html(selected_image);
+});
+
+        
