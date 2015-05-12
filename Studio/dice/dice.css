@@ -11,6 +11,10 @@ body{
     position:relative;
 }
 
+ul {
+    list-style:none;
+}
+
 .category {
     position:absolute;
     text-align:center;
