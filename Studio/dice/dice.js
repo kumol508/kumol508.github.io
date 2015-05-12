@@ -8,6 +8,7 @@ $('.friend-button').click(function() {
         
         $('.friends li').addClass('.optionselected');
         $('.friend-holder').html('<img src="'+selected_image+'">'),
+        $('.friendprev').html('<img src="'+selected_image+'">'),
         $('.selectedfriend-holder').html('<img src="'+selected_image+'">'),
         $('.friend-text').html(selected_friendtext);
 });
@@ -21,6 +22,7 @@ $('.graduation-button').click(function() {
         selected_gradtext       = $(selected_graduation).data('text');
         
         $('.graduation-holder').html('<img src="'+selected_image+'">');
+        $('.gradprev').html('<img src="'+selected_image+'">'),
         $('.selectedgraduation-holder').html('<img src="'+selected_image+'">');
         $('.graduation-text').html(selected_gradtext);
 });
@@ -34,6 +36,7 @@ $('.home-button').click(function() {
         selectedhome_text       = $(selected_home).data('text');
         
         $('.home-holder').html('<img src="'+selected_image+'">');
+        $('.homeprev').html('<img src="'+selected_image+'">'),
         $('.selectedhome-holder').html('<img src="'+selected_image+'">');
         $('.home-text').html(selectedhome_text);
         

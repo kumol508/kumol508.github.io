@@ -1033,6 +1033,87 @@ ul {
     position:absolute;
 }
 
+.sideframe {
+    position:absolute;
+    width:123;
+    left:766;
+    top:190;
+}
+
+.sideframe img {
+    position:absolute;
+    width:123;
+    z-index:100;
+}
+
+.friendprev {
+    position:absolute;
+    width:123;
+}
+
+.friendprev img {
+    z-index:50;
+    width:100;
+    height:72;
+    left:10;
+    top:10;
+    position:absolute;
+}
+
+.sideframe2 {
+    position:absolute;
+    width:123;
+    left:766;
+    top:306;
+}
+
+.sideframe2 img {
+    position:absolute;
+    width:123;
+    z-index:100;
+}
+
+.gradprev {
+    position:absolute;
+    width:123;
+}
+
+.gradprev img {
+    z-index:50;
+    width:100;
+    height:72;
+    left:10;
+    top:10;
+    position:absolute;
+}
+
+.sideframe3 {
+    position:absolute;
+    width:123;
+    left:766;
+    top:424;
+}
+
+.sideframe3 img {
+    position:absolute;
+    width:123;
+    z-index:100;
+}
+
+.homeprev {
+    position:absolute;
+    width:123;
+}
+
+.homeprev img {
+    z-index:50;
+    width:100;
+    height:72;
+    left:10;
+    top:10;
+    position:absolute;
+}
+
 .selectedgraduation-holder {
     position:absolute;
     width:224;
