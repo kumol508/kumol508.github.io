@@ -984,17 +984,20 @@ ul {
 
 .selectedfriend-holder {
     position:absolute;
-    width:140;
-    z-index:900;
+    left:67;
+    top:294;
+    width:346;
+    height:252;
+    z-index:99;
 }
 
 .selectedfriend-holder img {
-    z-index:50;
-    width:100;
-    top:10;
-    left:10;
+    z-index:99;
+    width:395;
+    height:288;
     position:absolute;
 }
+
 
 .sideframe {
     position:absolute;
@@ -1079,41 +1082,49 @@ ul {
 
 .selectedgraduation-holder {
     position:absolute;
-    width:224;
+    left:77;
+    top:690;
+    width:346;
+    height:252;
     z-index:99;
 }
 
 .selectedgraduation-holder img {
     z-index:99;
-    width:100;
-    top:45;
-    left:120;
+    width:384;
+    height:280;
+    position:absolute;
 }
 
 .selectedhome-holder {
     position:absolute;
-    width:174;
+    left:80;
+    top:1081;
+    width:346;
+    height:252;
     z-index:99;
 }
 
 .selectedhome-holder img {
     z-index:99;
-    width:100;
-    top:5;
-    left:100;
+    width:395;
+    height:288;
+    position:absolute;
 }
 
 .selectedwedding-holder {
     position:absolute;
-    width:146;
+    left:80;
+    top:1480;
+    width:346;
+    height:252;
     z-index:99;
 }
 
 .selectedwedding-holder img {
     z-index:99;
-    width:100;
-    top:10;
-    left:90;
+    width:384;
+    height:280;
     position:absolute;
 }
 
@@ -1193,7 +1204,7 @@ ul {
 
 .home-text {
     position:absolute;
-    top:1055;
+    top:1060;
     left:530;
     font-family:courier;
     color:black;
@@ -1213,7 +1224,7 @@ ul {
 }
 .wedding-text {
     position:absolute;
-    top:1465;
+    top:1470;
     left:530;
     font-family:courier;
     color:black;
@@ -1288,7 +1299,8 @@ frame4headend {
     font-size:11.25;
     left:36;
     top:1420;
-    z-index:100;}
+    z-index:100;
+}
     
 .frame4headend img{
     position:absolute;
