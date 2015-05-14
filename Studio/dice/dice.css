@@ -1151,86 +1151,87 @@ ul {
     top:250;
     left:530;
     width:155;
-    height:15;
+    height:20;
     border:1px solid black;
     position:absolute;
-    font-size:12;
+    font-size:18;
     text-align:center;
+    color:black;
+    font-family:courier;
 }
 
 .friend-text {
     position:absolute;
-    top:270;
+    top:275;
     left:530;
-    font-family:courier;
     color:black;
     width:166;
     height:137;
-    font-size:12;
+    font-size:18;
 }
 
 .graduationend {
     top:660;
     left:530;
     width:218;
-    height:15;
+    height:20;
     border:1px solid black;
     position:absolute;
-    font-size:12;
+    font-size:18;
     text-align:center;
+    font-family:courier;
 }
 
 .graduation-text {
     position:absolute;
     left:530;
-    top:680;
-    font-family:courier;
+    top:687;
     color:black;
     width:224;
     height:137;
-    font-size:12;
+    font-size:18;
 }
 
 .homeend {
     top:1040;
     left:530;
     width:165;
-    height:15;
+    height:20;
     border:1px solid black;
     position:absolute;
-    font-size:12;
+    font-size:18;
     text-align:center;
+    font-family:courier;
 }
 
 .home-text {
     position:absolute;
-    top:1060;
+    top:1066;
     left:530;
-    font-family:courier;
     color:black;
     width:174;
     height:137;
-    font-size:12;
+    font-size:18;
 }
 .weddingend {
     top:1450;
     left:530;
     width:160;
-    height:15;
+    height:20;
     border:1px solid black;
     position:absolute;
-    font-size:12;
+    font-size:18;
     text-align:center;
+    font-family:courier;
 }
 .wedding-text {
     position:absolute;
-    top:1470;
+    top:1476;
     left:530;
-    font-family:courier;
     color:black;
     width:166;
     height:137;
-    font-size:12;
+    font-size:18;
 }
 
 frame1headend {
