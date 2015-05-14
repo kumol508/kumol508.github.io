@@ -67,35 +67,3 @@ $('.wedding-button').click(function() {
 
     });
    
-
-  $(".frame1title").mouseenter(function(){
-        $(".friend-text").show();
-    });
-
-  $(".frame1title").mouseleave(function(){
-        $(".friend-text").hide();
-    });
-    
-  $(".frame2title").mouseenter(function(){
-        $(".graduation-text").show();
-    });
-
-  $(".frame2title").mouseleave(function(){
-        $(".graduation-text").hide();
-    }); 
-    
-  $(".frame3title").mouseenter(function(){
-        $(".home-text").show();
-    });
-
-  $(".frame3title").mouseleave(function(){
-        $(".home-text").hide();
-    });    
-    
-  $(".frame4title2").mouseenter(function(){
-        $(".wedding-text").show();
-    });
-
-  $(".frame4title2").mouseleave(function(){
-        $(".wedding-text").hide();
-    });    

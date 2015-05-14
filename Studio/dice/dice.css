@@ -11,6 +11,10 @@ body{
     position:relative;
 }
 
+.header {
+    position:fixed;
+}
+
 ul {
     list-style:none;
 }
@@ -105,9 +109,18 @@ ul {
     z-index:100;
 }
 
+.header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:960;
+    height:140;
+    background:white;
+    z-index:1000;
+}
 
 .frame1head {
-    position:absolute;
+    position:fixed;
     text-align:center;
     width:78;
     height:64;
@@ -115,7 +128,7 @@ ul {
     font-size:11.25;
     left:236;
     top:48;
-    z-index:100;
+    z-index:1000;
 }
 
 .frame1heado {
@@ -131,21 +144,8 @@ ul {
     opacity:0.5;
 }
 
-.frame1headselected {
-    position:absolute;
-    text-align:center;
-    width:75;
-    height:60;
-    font-family:courier;
-    font-size:11.25;
-    left:276;
-    top:50;
-    background:#f2c742;
-    z-index:50;
-}
-
 .frame2head {
-    position:absolute;
+    position:fixed;
     text-align:center;
     width:105;
     height:89;
@@ -153,7 +153,7 @@ ul {
     font-size:11.25;
     left:315;
     top:36;
-    z-index:100;
+    z-index:1000;
 }
 
 .frame2heado {
@@ -169,21 +169,8 @@ ul {
     opacity:0.5;
 }
 
-.frame2headselected {
-    position:absolute;
-    text-align:center;
-    width:75;
-    height:60;
-    font-family:courier;
-    font-size:11.25;
-    left:385;
-    top:50;
-    background:#f2c742;
-    z-index:50;
-}
-
 .frame3head {
-    position:absolute;
+    position:fixed;
     text-align:center;
     width:82;
     height:62;
@@ -191,7 +178,7 @@ ul {
     font-size:11.25;
     left:443;
     top:48;
-    z-index:100;
+    z-index:1000;
 }
 
 .frame3heado {
@@ -207,21 +194,8 @@ ul {
     opacity:0.5;
 }
 
-.frame3headselected {
-    position:absolute;
-    text-align:center;
-    width:75;
-    height:60;
-    font-family:courier;
-    font-size:11.25;
-    left:485;
-    top:50;
-    background:#f2c742;
-    z-index:50;
-}
-
 .frame4head {
-    position:absolute;
+    position:fixed;
     text-align:center;
     width:87;
     height:87;
@@ -229,7 +203,7 @@ ul {
     font-size:11.25;
     left:538;
     top:36;
-    z-index:100;
+    z-index:1000;
 }
 
 .frame4heado {
@@ -243,19 +217,6 @@ ul {
     top:36;
     z-index:100;
     opacity:0.5;
-}
-
-.frame4headselected {
-    position:absolute;
-    text-align:center;
-    width:80;
-    height:80;
-    font-family:courier;
-    font-size:11.25;
-    left:585;
-    top:40;
-    background:#f2c742;
-    z-index:50;
 }
 
 .frame1head img{
@@ -469,7 +430,7 @@ ul {
 .button-end {
 	width: 0;
 	height: 0;
-	top:608;
+	top:1838;
 	left:470;
 	border-top: 12.5px solid transparent;
 	border-left: 25px solid #f2c742;
@@ -566,7 +527,7 @@ ul {
     margin:0 auto;
     top:165;
     left:238;
-    z-index:1000;
+    z-index:999;
 }
 
 .graduation-frame img{
@@ -575,7 +536,7 @@ ul {
     margin:0 auto;
     top:165;
     left:238;
-    z-index:1000;
+    z-index:999;
 }
 
 .home-frame img{
@@ -584,7 +545,7 @@ ul {
     margin:0 auto;
     top:165;
     left:238;
-    z-index:1000;
+    z-index:999;
 }
 
 .wedding-frame img{
@@ -593,7 +554,7 @@ ul {
     margin:0 auto;
     top:165;
     left:238;
-    z-index:1000;
+    z-index:999;
 }
 
 .friend-holder {
@@ -664,12 +625,13 @@ ul {
 }
 
 .buttontext-try {
-    top:636;
+    top:1866;
     left:430;
     font-family:courier;
     text-align:center;
     font-size:18;
     position:absolute;
+    padding-bottom:50;
 }
 
 .text1main {
@@ -851,7 +813,7 @@ ul {
 .footer-end {
     position:absolute;
     top:186;
-    left:262;
+    left:310;
     text-align:center;
     font-size:18;
     font-family:courier;
@@ -1022,14 +984,15 @@ ul {
 
 .selectedfriend-holder {
     position:absolute;
-    width:166;
+    width:140;
+    z-index:900;
 }
 
 .selectedfriend-holder img {
     z-index:50;
-    width:150;
-    top:18;
-    left:90;
+    width:100;
+    top:10;
+    left:10;
     position:absolute;
 }
 
@@ -1117,11 +1080,12 @@ ul {
 .selectedgraduation-holder {
     position:absolute;
     width:224;
+    z-index:99;
 }
 
 .selectedgraduation-holder img {
     z-index:99;
-    width:150;
+    width:100;
     top:45;
     left:120;
 }
@@ -1129,11 +1093,12 @@ ul {
 .selectedhome-holder {
     position:absolute;
     width:174;
+    z-index:99;
 }
 
 .selectedhome-holder img {
     z-index:99;
-    width:150;
+    width:100;
     top:5;
     left:100;
 }
@@ -1172,8 +1137,8 @@ ul {
 }
 
 .friendend {
-    top:470;
-    left:87;
+    top:250;
+    left:530;
     width:155;
     height:15;
     border:1px solid black;
@@ -1184,8 +1149,8 @@ ul {
 
 .friend-text {
     position:absolute;
-    top:490;
-    left:87;
+    top:270;
+    left:530;
     font-family:courier;
     color:black;
     width:166;
@@ -1194,8 +1159,8 @@ ul {
 }
 
 .graduationend {
-    top:500;
-    left:260;
+    top:660;
+    left:530;
     width:218;
     height:15;
     border:1px solid black;
@@ -1206,8 +1171,8 @@ ul {
 
 .graduation-text {
     position:absolute;
-    left:260;
-    top:520;
+    left:530;
+    top:680;
     font-family:courier;
     color:black;
     width:224;
@@ -1216,8 +1181,8 @@ ul {
 }
 
 .homeend {
-    top:467;
-    left:494;
+    top:1040;
+    left:530;
     width:165;
     height:15;
     border:1px solid black;
@@ -1228,8 +1193,8 @@ ul {
 
 .home-text {
     position:absolute;
-    top:487;
-    left:495;
+    top:1055;
+    left:530;
     font-family:courier;
     color:black;
     width:174;
@@ -1237,8 +1202,8 @@ ul {
     font-size:12;
 }
 .weddingend {
-    top:470;
-    left:678;
+    top:1450;
+    left:530;
     width:160;
     height:15;
     border:1px solid black;
@@ -1248,8 +1213,8 @@ ul {
 }
 .wedding-text {
     position:absolute;
-    top:490;
-    left:678;
+    top:1465;
+    left:530;
     font-family:courier;
     color:black;
     width:166;
@@ -1257,4 +1222,78 @@ ul {
     font-size:12;
 }
 
+frame1headend {
+    position:absolute;
+    text-align:center;
+    width:481;
+    height:365;
+    font-family:courier;
+    font-size:11.25;
+    left:36;
+    top:240;
+    z-index:1000;}
+    
+.frame1headend img{
+    position:absolute;
+    width:481;
+    left:36;
+    top:240;
+    z-index:999;
+}
 
+frame2headend {
+    position:absolute;
+    text-align:center;
+    width:105;
+    height:89;
+    font-family:courier;
+    font-size:11.25;
+    left:36;
+    top:645;
+    z-index:100;}
+    
+.frame2headend img{
+    position:absolute;
+    width:481;
+    left:36;
+    top:650;
+    z-index:999;
+}
+
+frame3headend {
+    position:absolute;
+    text-align:center;
+    width:82;
+    height:62;
+    font-family:courier;
+    font-size:11.25;
+    left:36;
+    top:1060;
+    z-index:100;}
+    
+.frame3headend img{
+    position:absolute;
+    width:481;
+    top:1025;
+    left:36;
+    z-index:999;
+}
+
+frame4headend {
+    position:absolute;
+    text-align:center;
+    width:87;
+    height:87;
+    font-family:courier;
+    font-size:11.25;
+    left:36;
+    top:1420;
+    z-index:100;}
+    
+.frame4headend img{
+    position:absolute;
+    width:481;
+    top:1435;
+    left:36;
+    z-index:999;
+}    
