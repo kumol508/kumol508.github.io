@@ -783,6 +783,14 @@ ul {
     position:absolute;
 }
 
+.option5text2 {
+    left:40;
+    top:10;
+    font-size:16;
+    font-family:courier;
+    position:absolute;
+}
+
 .optionselected {
     font-weight:bold;
 }
@@ -1166,10 +1174,10 @@ ul {
 
 .friend-text {
     position:absolute;
-    top:275;
+    top:285;
     left:530;
     color:black;
-    width:166;
+    width:200;
     height:137;
     font-size:18;
 }
@@ -1189,9 +1197,9 @@ ul {
 .graduation-text {
     position:absolute;
     left:530;
-    top:687;
+    top:697;
     color:black;
-    width:224;
+    width:200;
     height:137;
     font-size:18;
 }
@@ -1210,10 +1218,10 @@ ul {
 
 .home-text {
     position:absolute;
-    top:1066;
+    top:1076;
     left:530;
     color:black;
-    width:174;
+    width:200;
     height:137;
     font-size:18;
 }
@@ -1230,10 +1238,10 @@ ul {
 }
 .wedding-text {
     position:absolute;
-    top:1476;
+    top:1486;
     left:530;
     color:black;
-    width:166;
+    width:200;
     height:137;
     font-size:18;
 }
