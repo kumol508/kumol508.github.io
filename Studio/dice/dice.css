@@ -2,7 +2,11 @@ body{
     width:960;
     height:1600;
 }
-
+.everything {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
 .content{
     width:960;
     height:800px;
@@ -1115,7 +1119,7 @@ ul {
 .selectedwedding-holder {
     position:absolute;
     left:80;
-    top:1480;
+    top:1473;
     width:346;
     height:252;
     z-index:99;
