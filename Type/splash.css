@@ -1,0 +1,116 @@
+body {
+    font-size:10;
+    font-family:Futura;
+    color: white;
+}
+
+head {
+    font-size:10;
+    color: white;
+    font-family:Futura;
+}  
+    
+a {color:white;}   
+a:hover {color: #c9d9cc;}
+a:visited {color:black;}
+
+.outer-wrapper {width: 960px;
+    margin: 0 auto;
+    color: white;
+    background: white;}
+    
+.wrap {margin: 0 auto;
+    position:relative;
+    display:inline-block;
+    width:960px;} 
+
+
+.image{
+    margin: 0 auto;
+    background: url("static.png");
+}
+.image:hover {
+    cursor:pointer;
+    background: url("tiltblack.gif");
+}
+    
+.box2 {width:550px;
+height:475px;
+margin: 0 auto;
+text-align:center;
+background-color:white;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.smalltext {
+    font-size: 8;
+    margin: 0 auto;
+    width: 550;
+}
+
+.t1 {width:12;
+    height:12;
+    background-color: black;
+    margin-bottom:5px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.t1:hover {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("Circular.otf"),format('otf');
+}
+
+@font-face {
+  font-family: 'TiltRegular';
+  src: url('Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TiltOutline';
+  src: url('Outline.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TiltShadow';
+  src: url('Shadow.woff2') format('woff2');
+}
+
+.circular {
+    font-family: "Circular";
+    src: url("Circular.otf");
+    font-size:8;
+}
+
+.tiltregular {
+    font-family: "TiltRegular";
+    src: url("Regular.woff2");
+    font-size:100;
+    line-height:100%;
+}
+
+.tiltoutline {
+    font-family: "TiltOutline";
+    src: url(Outline.woff2);
+    font-size:100;
+    line-height:100%;
+}
+
+.tiltshadow {
+    font-family: "TiltShadow";
+    src: url(Shadow.woff2);
+    font-size:100;
+    line-height:100%;
+}

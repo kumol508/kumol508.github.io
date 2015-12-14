@@ -1,0 +1,55 @@
+body {
+    font-size:10;
+    font-family:Futura;
+    color: white;
+    background-color:black;
+}
+
+head {
+    font-size:10;
+    color: white;
+    font-family:Futura;
+}  
+    
+a {color:white;}   
+a:hover {color: #c9d9cc;}
+a:visited {color:white;}
+
+.outer-wrapper {width: 960px;
+    margin: 0 auto;
+    color: white;}
+    
+.wrap {margin: 0 auto;
+    position:relative;
+    display:inline-block;
+    width:960px;} 
+
+
+.image{
+    margin: 0 auto;
+    background: url("staticwhite.png");
+}
+.image:hover {
+    cursor:pointer;
+    background: url("tiltwhite.gif");
+}
+    
+.box2 {width:550px;
+height:475px;
+margin: 0 auto;
+text-align:center;
+background-color:black;
+}
+
+.t1 {width:12;
+    height:12;
+    background-color: white;
+    margin-bottom:5px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.t1:hover {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}

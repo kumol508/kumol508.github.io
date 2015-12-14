@@ -19,7 +19,12 @@ a:visited {color:black;}
     margin-right:13px;
     padding-left:13;
 }
-
+.intro{
+    width:960;
+    height:600;
+    margin: 0 auto;
+    background-color: white;
+}
 .text {
     position:absolute;
     text-align:center;
