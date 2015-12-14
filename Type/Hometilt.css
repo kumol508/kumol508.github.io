@@ -1,6 +1,7 @@
 body {
     font-size:10;
     font-family:Futura;
+    font-weight:lighter;
     color: black;
 }
 
@@ -8,56 +9,32 @@ head {
     font-size:10;
     color: black;
     font-family:Futura;
+    font-weight:lighter;
 }  
     
 a {color:black;}   
-a:hover {color: #c9d9cc;}
-a:visited {color:black;}
+a:hover {color: black;}
+a:visited {color:black;
+    text-decoration:none;
+}
 
 .outer-wrapper {width: 960px;
     margin: 0 auto;
-    color: white;
-    background: white;}
+    color: black;}
     
 .wrap {margin: 0 auto;
     position:relative;
     display:inline-block;
     width:960px;} 
-
-
-.image{
-    margin: 0 auto;
-    background: url("static.png");
-}
-.image:hover {
-    cursor:pointer;
-    background: url("tiltblack.gif");
-}
     
-.box {
-    position:absolute;
-    float:left;
-    font-family:Futura;
-    color:black;
-    top:320;
-}
-
-.line {
-    position:absolute;
-    top:335;
-    left:200;
-}
-
-.box2 {width:550px;
+.intro {margin: 0 auto;
+background-color: white;
+width: 960;}
+    
+.box {width:550px;
 height:475px;
 margin: 0 auto;
 text-align:center;
-background-color:white;
-border-left: thin solid #dfe3de;
-}
-
-.box3 {width:500px;
-margin: 0 auto;
 }
 
 .right {
@@ -72,9 +49,6 @@ margin: 0 auto;
     font-size: 8;
     margin: 0 auto;
     width: 550;
-}
-.p {
-    color:black;
 }
 
 .t1 {width:15;
@@ -119,20 +93,20 @@ margin: 0 auto;
 .tiltregular {
     font-family: "TiltRegular";
     src: url("Regular.woff2");
-    font-size:100;
+    font-size:400;
     line-height:100%;
 }
 
 .tiltoutline {
     font-family: "TiltOutline";
     src: url(Outline.woff2);
-    font-size:100;
+    font-size:400;
     line-height:100%;
 }
 
 .tiltshadow {
     font-family: "TiltShadow";
     src: url(Shadow.woff2);
-    font-size:100;
+    font-size:400;
     line-height:100%;
 }
