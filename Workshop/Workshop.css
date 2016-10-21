@@ -1,22 +1,31 @@
 body {
     font-size:10;
     font-family:Futura;
+    font-weight:lighter;
     color: black;
+    background-color:white;
 }
 
 head {
     font-size:10;
     color: black;
     font-family:Futura;
+    font-weight:lighter;
 }  
+
+.header{
+    font-size:14;
+}
     
-a {color:black;}   
-a:hover {color: #c9d9cc;}
-a:visited {color:black;}
+a {color:black}   
+a:hover {color: red;}
+a:visited {color:blue;
+    text-decoration:none;
+}
 
 .outer-wrapper {width: 960px;
     margin: 0 auto;
-    color: white;
+    color: black;
     background: white;}
     
 .wrap {margin: 0 auto;
@@ -24,62 +33,28 @@ a:visited {color:black;}
     display:inline-block;
     width:960px;} 
 
-.image{
-    margin: 0 auto;
-    background: url("static.png");
-}
-
-.image:hover {
-    cursor:pointer;
-    background: url("tiltblack.gif");
-}
     
-.box {
-    position:absolute;
-    float:left;
-    font-family:Futura;
-    color:black;
-    top:320;
+.box {width:890px;
 }
 
-.line {
-    position:absolute;
-    top:335;
-    left:200;
-}
-
-.box2 {width:550px;
-height:475px;
-margin: 0 auto;
-text-align:center;
-background-color:white;
-border-left: thin solid #dfe3de;
-}
-
-.box3 {width:500px;
-margin: 0 auto;
-}
-
-.right {
-    float: right;
+img {margin:0 auto;
+    padding-right:10px;
 }
 
 .left {
     float: left;
+    width:120px;
+    height:600;
+    padding-right:20px;
 }
 
 .smalltext {
     font-size: 8;
-    margin: 0 auto;
-    width: 550;
-}
-.p {
-    color:black;
 }
 
 .t1 {width:15;
     height:15;
-    background-color: black;
+    background-color: white;
     margin-bottom:5px;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition: transform .8s ease-in-out;
