@@ -23,15 +23,17 @@ a:visited {color:blue;
     text-decoration:none;
 }
 
-.outer-wrapper {width: 960px;
+.outer-wrapper {
     margin: 0 auto;
     color: black;
-    background: white;}
+    background: white;
+    padding:10;
+}
     
 .wrap {margin: 0 auto;
     position:relative;
     display:inline-block;
-    width:960px;} 
+    } 
 
     
 .box {width:890px;
@@ -43,8 +45,8 @@ img {margin:0 auto;
 
 .left {
     float: left;
-    width:120px;
-    height:600;
+    width:140px;
+    height:100%;
     padding-right:20px;
 }
 
@@ -52,62 +54,13 @@ img {margin:0 auto;
     font-size: 8;
 }
 
-.t1 {width:15;
-    height:15;
-    background-color: white;
-    margin-bottom:5px;
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-  transition: transform .8s ease-in-out;
-}
-
-.t1:hover {
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
 @font-face {
     font-family: "Circular";
     src: url("Circular.otf"),format('otf');
-}
-
-@font-face {
-  font-family: 'TiltRegular';
-  src: url('Regular.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'TiltOutline';
-  src: url('Outline.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'TiltShadow';
-  src: url('Shadow.woff2') format('woff2');
 }
 
 .circular {
     font-family: "Circular";
     src: url("Circular.otf");
     font-size:8;
-}
-
-.tiltregular {
-    font-family: "TiltRegular";
-    src: url("Regular.woff2");
-    font-size:100;
-    line-height:100%;
-}
-
-.tiltoutline {
-    font-family: "TiltOutline";
-    src: url(Outline.woff2);
-    font-size:100;
-    line-height:100%;
-}
-
-.tiltshadow {
-    font-family: "TiltShadow";
-    src: url(Shadow.woff2);
-    font-size:100;
-    line-height:100%;
 }
