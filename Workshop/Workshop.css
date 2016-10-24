@@ -1,7 +1,7 @@
 body {
     font-size:10;
     font-family:Futura;
-    font-weight:lighter;
+    font-style:normal;
     color: black;
     background-color:white;
 }
@@ -10,7 +10,7 @@ head {
     font-size:10;
     color: black;
     font-family:Futura;
-    font-weight:lighter;
+    font-style:normal;
 }  
 
 .header{
@@ -63,4 +63,63 @@ img {margin:0 auto;
     font-family: "Circular";
     src: url("Circular.otf");
     font-size:8;
+}
+
+.content{
+    max-width:890px;
+    margin:0 auto;
+    display:block;
+}
+
+.holder{
+    position:relative;
+}
+
+.mySlides {
+    display: block;
+    padding-bottom: 5;
+}
+
+.display-left {
+    position:absolute;
+    top:50%;
+    left:140px;
+    transform: translate(0%, -50%);
+}
+
+.display-right {
+    position:absolute;
+    top:50%;
+    left:860;
+    transform: translate(0%, -50%);
+}
+
+.floating {
+    width:40;
+    height:40;
+    text-align:center;
+    z-index:1;
+    font-size:14;
+    cursor:pointer;
+    position:absolute;
+}
+
+a:link {
+    color: black;
+    font-style: bold;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    text-decoration: underline;
+}
+
+a:visited {
+    color:black;
+    text-decoration: underline;
 }

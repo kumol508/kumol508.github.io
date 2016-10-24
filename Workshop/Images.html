@@ -21,6 +21,7 @@
             <div class=left>
                 <a href="About.html" style="text-decoration:none"> About</a> <br>
                 <a href="Workshop.html" style="text-decoration:none"> Workshop 1</a> <br>
+                <a href="Images.html" style="text-decoration:none"> Images</a> <br>
                 <a href="Discussion.html" style="text-decoration:none"> Discussion</a> <br>
                 <a href="Feedback.html" style="text-decoration:none"> Feedback</a> <br>
                 <a href="https://likandokumoyo.wordpress.com/thesis/" style="text-decoration:none"> Thesis Blog </a> <br>
@@ -28,24 +29,56 @@
             <div class=box>
                 <div class=header><b>Images | Experiment 1</b> </div> <br> 
                 <br>
-                    <img src="bbjul.jpg" style="width:200px">
-                    <img src="IMG_1039.jpg" style="width:200px">
-                    <img src="IMG_1051.jpg" style="width:200px"> <br>
-                    <p class=smalltext> Kupapa <br> My mum carrying my younger cousin with a chitenge. </p>
-                    <img src="IMG_0914.jpg" style="width:200px">
-                    <img src="IMG_0921.jpg" style="width:200px"> 
-                    <img src="IMG_0939.jpg" style="width:200px"> 
-                    <br> <br>
-                    <img src="IMG_1046.jpg" style="width:200px"> 
-                    <img src="IMG_0983.jpg" style="width:200px"> 
-                    <img src="IMG_1047.jpg" style="width:200px">
-                    <br> <br> 
-                    <img src="IMG_0910.jpg" style="width:200px"> 
-                    <img src="IMG_0911.jpg" style="width:200px"> 
-                    <img src="IMG_0917.jpg" style="width:200px">
-                    <p class=smalltext> Biltong and vitumbua served as snacks. </p>
+                <div class="content holder">
+                <div>    
+                    <img src="bbjul.jpg" class="mySlides" style="max-width:700; max-height:500">
+                   <!-- <div class="content holder">
+                    Kupapa <br> My mum carrying my younger cousin with a chitenge.
+                    </div> -->
+                </div>    
+                    <img src="IMG_1039.jpg" class="mySlides" style="max-width:700; max-height:500">
+                    <img src="IMG_1051.jpg" class="mySlides" style="max-width:700; max-height:500">
+                    
+                    <img src="IMG_0914.jpg" class="mySlides" style="max-width:700; max-height:500">
+                    <img src="IMG_0921.jpg" class="mySlides" style="max-width:700; max-height:500"> 
+                    <img src="IMG_0939.jpg" class="mySlides" style="max-width:700; max-height:500"> 
+                    
+                    <img src="IMG_1046.jpg" class="mySlides" style="max-width:700; max-height:500"> 
+                    <img src="IMG_0983.jpg" class="mySlides" style="max-width:700; max-height:500"> 
+                    <img src="IMG_1047.jpg" class="mySlides" style="max-width:700; max-height:500">
+                     
+                    <img src="IMG_0911.jpg" class="mySlides" style="max-width:700; max-height:500"> 
+                    <img src="IMG_0917.jpg" class="mySlides" style="max-width:700; max-height:500">
+                <div>    
+                    <img src="IMG_0910.jpg" class="mySlides" style="max-width:700; max-height:500">
+                    <!-- <div class="holder">
+                    Biltong and vitumbua served as snacks.
+                    </div> -->
+                </div>    
+                    
+                    <a class="box display-left floating" onclick="plusDivs(-1)">&#10094;</a>
+                    <a class="box display-right floating" onclick="plusDivs(+1)">&#10095;</a>
             </div>
-        </div>
+            </div>
+            <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
     </body>
 </div>
 </html>
