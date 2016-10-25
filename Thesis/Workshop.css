@@ -1,15 +1,15 @@
 body {
-    font-size:10;
-    font-family:Futura;
+    font-size:12;
+    font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
     font-style:normal;
     color: black;
     background-color:white;
 }
 
 head {
-    font-size:10;
+    font-size:12;
     color: black;
-    font-family:Futura;
+    font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
     font-style:normal;
 }  
 
@@ -36,8 +36,7 @@ a:visited {color:blue;
     } 
 
     
-.box {width:890px;
-}
+.box {width:890px;}
 
 img {margin:0 auto;
     padding-right:10px;
@@ -51,7 +50,7 @@ img {margin:0 auto;
 }
 
 .smalltext {
-    font-size: 8;
+    font-size: 10;
 }
 
 @font-face {
