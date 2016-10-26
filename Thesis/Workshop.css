@@ -1,5 +1,5 @@
 body {
-    font-size:12;
+    font-size:13;
     font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
     font-style:normal;
     color: black;
@@ -14,7 +14,12 @@ head {
 }  
 
 .header{
-    font-size:14;
+    font-size:34;
+    margin:0 auto;
+    width:900;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20;
 }
     
 a {color:black}   
@@ -33,13 +38,17 @@ a:visited {color:blue;
 .wrap {margin: 0 auto;
     position:relative;
     display:inline-block;
+    left:180;
+    width:900;
     } 
 
     
-.box {width:890px;}
+.box {width:890px;
+      left:140;
+}
 
 img {margin:0 auto;
-    padding-right:10px;
+    padding-bottom:20px;
 }
 
 .left {
@@ -72,11 +81,6 @@ img {margin:0 auto;
 
 .holder{
     position:relative;
-}
-
-.mySlides {
-    display: block;
-    padding-bottom: 5;
 }
 
 .display-left {
@@ -115,4 +119,46 @@ a:hover {
 
 a:visited {
     color:black;
+}
+.dropbtn {
+    padding-bottom: 2;
+    padding-right:12;
+    padding-left:12;
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover {
+    background-color: #f9f9f9;
+}
+.dropbtn:hover {
+    background-color: #f9f9f9;
 }
