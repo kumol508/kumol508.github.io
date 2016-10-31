@@ -62,15 +62,35 @@ img {margin:0 auto;
     font-size: 10;
 }
 
-@font-face {
-    font-family: "Circular";
-    src: url("Circular.otf"),format('otf');
+.quote{
+    font-size: 48;
+    text-align: center;
+    width:550;
+    margin:0 auto;
 }
 
-.circular {
-    font-family: "Circular";
-    src: url("Circular.otf");
-    font-size:8;
+.quoteleft{
+    left:140;
+    font-size: 80;
+    line-height:.5;
+    padding-bottom: 10;
+    padding-top: 30;
+    position:relative;
+    width:30;
+}
+
+.quoteright{
+    left:690;
+    font-size: 80;
+    line-height:1;
+    position:relative;
+    width:30;
+    padding-top: 20;
+}
+
+.quote2{
+    font-size: 18;
+    padding-bottom: 25;
 }
 
 .content{
