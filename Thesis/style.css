@@ -36,6 +36,12 @@ head {
     font-size:18;
 }
 
+.photocred{
+    font-size:10;
+    float:right;
+    color:rgba(0, 35, 122, 0.5);
+}
+
 .contentheader{
     width:100%;
     height:300px;
