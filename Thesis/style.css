@@ -521,7 +521,7 @@ head {
   display: inline-block;
 }
 
-a {
+a { 
     text-decoration:none;
 }
 a:hover {
