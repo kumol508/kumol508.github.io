@@ -311,9 +311,15 @@ head {
     display:block;
     top:200;
     float:left;
-    position:relative;
+    position:absolute;
+    z-index:1000;
 }
-
+.quotepic{
+    width:350;
+    z-index: -1;
+    position:absolute;
+    top:80;
+}
 
 .contact{
     font-size:12;
@@ -352,13 +358,6 @@ input {
     font-size:14;
     position:relative;
     z-index:1;
-}
-
-.quotepic{
-    width:350;
-    z-index: -1;
-    position:fixed;
-    top:290;
 }
 
 .contentpic{
