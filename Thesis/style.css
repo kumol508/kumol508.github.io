@@ -32,6 +32,10 @@ head {
     float:left;
 }
 
+.mySlides{
+    display:none;
+}
+
 .subscribe a:visited {
     color:white;
 }

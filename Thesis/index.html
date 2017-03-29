@@ -30,6 +30,28 @@ $(document).ready(function() {
     
   } );
   </script>    
+  <script>
+  $(function() {
+    $('.mySlides').hide();
+});
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
   
   <div class=navbar>
     
@@ -68,12 +90,18 @@ $(document).ready(function() {
                 <div class=homebox>
                     <img src="Logoline.gif" style="max-width:450"></img>
                 </div>-->
-               <div class='images-holder'>
-                   <p class='empty'>CLICK TO UNMASK</p>
+               <div class='images-holder' onclick="plusDivs(1)">
+                   <img class=mySlides src="Images/IMG_1049.JPG">
+                   <img class=mySlides src="Images/IMG_0914.jpg">
+                   <img class=mySlides src="Images/IMG_0915.jpg">
+                   <img class=mySlides src="Images/IMG_0983.jpg">
+                   <img class=mySlides src="Children/Kidshome.jpg">
+                   <img class=mySlides src="Children/Kids4.jpg">
+                   <img class=mySlides src="Children/Kids6.jpg">
                </div>
                
                 <div class='aboutbox'>
-                Through workshops and lectures, the Unmasking
+                Through workshops and lectures the Unmasking
                 Africa initiative aims to promote a greater appreciation for
                 contemporary African art and design. Attendees are able to learn about contemporary African artists
                 and create their own works. These intimate workshops provide a space open to discussion and
@@ -140,6 +168,5 @@ End mc_embed_signup-->
                 
             </div>
         </div>
-        <script src="style.js"></script>
     </body>
 </html>
