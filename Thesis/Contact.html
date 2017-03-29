@@ -1,14 +1,11 @@
 <html>
-    <div>
     <head>
        <link href="style.css" rel="stylesheet" type="text/css" />
        <title>Contact</title>
         <link rel="icon" 
         type="image/png" 
         href="favicon.png" />
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        
+  
   <div class=navbar>
     
     <ul>
@@ -28,20 +25,41 @@
             </li>
         </ul>
     </div>
+    
     </head>
     
     <body>
         <div class=homeouter-wrapper>
             <div class=wrap>
-                <div class=content style=top:200;width:680>  
-                <div style=text-align:center class=header>Contact</div>
+               <div class=content>
+                <div class=leftside>
+                <div style=font-size:32>CONTACT</div>
+                <div > Feel free to contact me directly with any questions or feedback about the project</div>
+                <br><br>
+                <div class=contact>
+                <form style=margin-top:1.5px; action="mailto:likandok@yahoo.com" method="post" enctype="text/plain">
+Name:<br>
+<input style=margin-top:6px;margin-bottom:8px; type="text" name="name"><br>
+E-mail:
+<input style=margin-top:6px;margin-bottom:8px; type="text" name="mail"><br>
+Comment:
+<input style=margin-top:6px;margin-bottom:8px; type="text" name="comment" size="12"><br>
+<input style=width:65px;cursor:pointer;font-family:futuramedium;font-weight:100;padding-right:18;padding-left:15;background:#c0b283;color:white;height:32px;margin-right:8px; type="submit" value="Send">
+<input style=width:65px;cursor:pointer;font-family:futuramedium;font-weight:100;padding-right:18px;padding-left:15;background:#c0b283;color:white;height:32;margin:0,5,10,0; type="reset" value="Reset">
+</form>
+                </div>
+                </div>
                 
-                <br> <div style=text-align:center;font-size:16 class=W1text2>Stay up to date with Unmasking Africa's programs and sign up for our newsletter</div>
-                <br> <br>
-                <!-- Begin MailChimp Signup Form -->
+                <div class=sideimg>
+                    <br><br>
+                    <div style=padding-top:5px; >Stay up to date with Unmasking Africa's programs and sign up for our newsletter.</div>
+                    <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{clear:left; font-family:futuramedium;font-size:12; }
+	#mc_embed_signup{clear:left; font-family:futuramedium;font-size:12;}
+	#mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {font-size:12px;background-color:#fffef6;}
+	input{font-size:12px;}
+	#mc_embed_signup .button{font-size:12px; padding:0 18px;font-family:futuramedium;}
 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
@@ -73,23 +91,11 @@
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
+                </div> 
                 <br><br><br>
-                <!--<div class=W1text2>Contact</div>
-                <br> <br>
-<form action="mailto:likandok@yahoo.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br><br>
-E-mail:<br>
-<input type="text" name="mail"><br><br>
-Comment:<br>
-<input type="text" name="comment" size="12"><br><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-</form>
-<br><br><br><br>-->
                 </div>
+                
             </div>
         </div>
     </body>
-</div>
 </html>

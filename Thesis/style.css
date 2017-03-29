@@ -24,7 +24,7 @@ head {
     } 
 
 .header{
-    font-size:36;
+    font-size:32;
     margin:0 auto;
     text-transform: uppercase;
 }
@@ -251,12 +251,13 @@ head {
 }
 
 .quote {
-    font-size: 36;
+    font-size: 32;
     text-align: center;
+    font-family:futuramedium_italic;
 }
 
 .quoteleft{
-    font-size: 60;
+    font-size: 100;
     line-height: .5;
     position: relative;
     width: 30;
@@ -264,7 +265,7 @@ head {
 
 .quoteright{
     float:right;
-    font-size: 60;
+    font-size: 100;
     line-height: 1;
     position: relative;
     width: 30;
@@ -301,6 +302,48 @@ head {
     display: block;
 }
 
+.leftside{
+    width:350;
+    height:400px;
+    margin:0 auto;
+    font-family: Futura;
+    font-size:14;
+    display:block;
+    top:200;
+    float:left;
+    position:relative;
+}
+
+
+.contact{
+    font-size:12;
+}
+
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    padding: 8px 0;
+    text-indent: 2px;
+    border-radius:3px;
+    border: 1px solid #ABB0B2;
+    font-size:12;
+    width:100%;
+}
+
+
+.rightside{
+    width:350;
+    height:400px;
+    margin:0 auto;
+    float:right;
+    top:200;
+    position: relative;
+    display: block;
+}
+
 .content{
     width:700px;
     height:500px;
@@ -308,6 +351,14 @@ head {
     font-family: Futura;
     font-size:14;
     position:relative;
+    z-index:1;
+}
+
+.quotepic{
+    width:350;
+    z-index: -1;
+    position:fixed;
+    top:290;
 }
 
 .contentpic{
@@ -373,7 +424,7 @@ head {
 
 .W1text{
     margin:0 auto;
-    font-size:36;
+    font-size:32;
     position:relative;
     line-height: .5;
 }
@@ -533,6 +584,7 @@ head {
 }
 
 a { 
+    color:black;
     text-decoration:none;
 }
 a:hover {
