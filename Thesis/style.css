@@ -686,6 +686,7 @@ a:visited {
     margin: 0 auto;
     position: relative;
     display: block;
+    padding-bottom:20%;
 }
 .sideimgt {
     width: 60%;
@@ -693,7 +694,7 @@ a:visited {
     position: relative;
     display: block;
     max-width:280;
-    top:60;
+    top:0;
 }
 .quotepics{
                 max-width:250px;
