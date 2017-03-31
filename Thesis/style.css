@@ -671,7 +671,7 @@ a:visited {
 
 @media  (max-width: 737px) {
 .aboutme{
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     padding-bottom: 10%;
     font-family: Futura;
@@ -682,7 +682,7 @@ a:visited {
 }
 
 .sideimg {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     position: relative;
     display: block;
