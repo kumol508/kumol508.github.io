@@ -693,5 +693,8 @@ a:visited {
     position: relative;
     display: block;
 }
+.content{
+    width:400px;
+}
 
 }
