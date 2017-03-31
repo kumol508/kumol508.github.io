@@ -310,6 +310,12 @@ h1{
     display: inline-block;
 }
 
+.sideimgt{
+    width:40%;
+    position: relative;
+    display: inline-block;
+}
+
 .leftside{
     width:350;
     height:400px;
