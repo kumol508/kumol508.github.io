@@ -666,7 +666,7 @@ a:visited {
     padding-bottom:20;
 }
 
-@media only screen (max-width: 737px) {
+@media (max-width: 737px) {
 .aboutme{
     width: 80%;
     margin: 0 auto;
