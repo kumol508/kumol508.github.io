@@ -285,25 +285,21 @@ head {
 }
 
 .aboutme{
-    width:350;
-    height:400px;
-    margin:0 auto;
+    width:50%;
+    padding-right:5%;
     font-family: Futura;
     font-size:12;
-    display:block;
-    top:200;
-    float:left;
+    display:inline-block;
     position:relative;
+}
+h1{
+    font-size:32px;
 }
 
 .sideimg{
-    width:300;
-    height:300px;
-    margin:0 auto;
-    float:right;
-    top:200;
+    width:40%;
     position: relative;
-    display: block;
+    display: inline-block;
 }
 
 .leftside{
@@ -356,7 +352,7 @@ input {
 
 .content{
     width:700px;
-    height:500px;
+    top:200px;
     margin:0 auto;
     font-family: Futura;
     font-size:14;
@@ -378,31 +374,25 @@ input {
 }
 
 .contentpic2{
-    width:350;
-    height:300px;
+    width:47%;
+    padding-right:5%;
     margin:0 auto;
-    float:left;
     font-family: Futura;
     font-size:12;
-    display:block;
-    padding-bottom:30;
+    display:inline-block;
 }
 
 .contentpic3{
-    width:350;
-    height:300px;
+    width:47%;
     margin:0 auto;
-    float:right;
     font-family: Futura;
     font-size:12;
-    display:block;
-    padding-bottom:30;
+    display:inline-block;
 }
 
 .contentimg{
     float:left;
     display:block;
-    top:300;
 }
 
 .img {
