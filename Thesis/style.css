@@ -680,7 +680,7 @@ a:visited {
     padding-bottom:20;
 }
 
-@media (max-width: 736px) {
+@media only screen (max-width: 736px) {
 .aboutme{
     width: 80%;
     margin: 0 auto;
