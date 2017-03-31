@@ -688,13 +688,16 @@ a:visited {
     display: block;
 }
 .sideimgt {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     position: relative;
     display: block;
     max-width:280;
     top:60;
 }
+.quotepics{
+                max-width:250px;
+            }
 
 .contentpic2{
     width: 60%;
