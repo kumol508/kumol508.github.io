@@ -328,6 +328,9 @@ h1{
     position:absolute;
     top:80;
 }
+.quotepics{
+   max-width:350px;
+}
 
 .contact{
     font-size:12;
@@ -666,9 +669,9 @@ a:visited {
     padding-bottom:20;
 }
 
-@media (max-width: 737px) {
+@media  (max-width: 737px) {
 .aboutme{
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     padding-bottom: 10%;
     font-family: Futura;
@@ -679,14 +682,22 @@ a:visited {
 }
 
 .sideimg {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     position: relative;
     display: block;
 }
+.sideimgt {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    max-width:280;
+    top:60;
+}
 
 .contentpic2{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     position: relative;
     display: block;
@@ -695,18 +706,18 @@ a:visited {
 }
 
 .contentimg2{
-    max-width:280px;
+    max-width:250px;
 }
 .contentpic3{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     position: relative;
     display: block;
-    padding-bottom: 10%;
+    padding-bottom: 20%;
 }
 
 .header{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     position: relative;
     display: block;
@@ -718,4 +729,8 @@ a:visited {
     width:400px;
 }
 
+.footer{
+    z-index:0;
+    color:#FFFEF6;
+}
 }
