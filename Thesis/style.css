@@ -28,6 +28,11 @@ head {
     margin:0 auto;
     text-transform: uppercase;
 }
+.header1{
+    font-size:32;
+    margin:0 auto;
+    text-transform: uppercase;
+}
 .logo{ 
     float:left;
 }
@@ -373,9 +378,6 @@ input {
     font-size:14;
     position:relative;
     z-index:1;
-    media only screen and (max-width: 414px) {
-    width: 400px;
-}
 }
 
 .contentpic{
@@ -671,15 +673,21 @@ a:visited {
 
 }
 
-@media only screen and (max-width: 414px) {
+.contentimg2{
+    max-width:328;
+    padding-bottom:20
+}
+
+@media (max-width: 736px) {
 .aboutme{
-    width: 83%;
+    width: 80%;
     margin: 0 auto;
     padding-bottom: 10%;
     font-family: Futura;
     font-size: 12;
     display: block;
     position: relative;
+    padding-right:0;
 }
 
 .sideimg {
@@ -695,8 +703,12 @@ a:visited {
     position: relative;
     display: block;
     padding-bottom: 5%;
+    padding-right:0%;
 }
 
+.contentimg2{
+    max-width:280px;
+}
 .contentpic3{
     width: 80%;
     margin: 0 auto;
@@ -710,6 +722,9 @@ a:visited {
     margin: 0 auto;
     position: relative;
     display: block;
+}
+.header1{
+    font-size: 30;
 }
 .content{
     width:400px;
