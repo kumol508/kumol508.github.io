@@ -652,3 +652,46 @@ a:visited {
     font-style: normal;
 
 }
+
+@media only screen and (max-width: 500px) {
+.aboutme{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    font-family: Futura;
+    font-size: 12;
+    display: block;
+    position: relative;
+}
+
+.sideimg {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.contentpic2{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    padding-bottom: 5%;
+}
+
+.contentpic3{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    padding-bottom: 5%;
+}
+
+.header{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+}
