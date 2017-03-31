@@ -89,19 +89,6 @@ head {
     cursor:pointer;
 }
 
-.empty{
- font-size:20;
- opacity:0;
- width: 500px;
- height: 333px;
- text-align: center;
-
- 
-}
-
-.empty:hover{
- opacity:1;    
-}
 
 .subbox{
     width: 170px;
@@ -259,6 +246,12 @@ head {
     font-size:10;
     float:right;
     color:#397E58;
+}
+
+.photocap{
+    font-size:10;
+    float:right;
+    color:#c0b283;
 }
 
 .quote {
