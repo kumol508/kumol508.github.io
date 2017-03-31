@@ -28,11 +28,13 @@ head {
     margin:0 auto;
     text-transform: uppercase;
 }
+
 .header1{
     font-size:32;
     margin:0 auto;
     text-transform: uppercase;
 }
+
 .logo{ 
     float:left;
 }
@@ -674,8 +676,8 @@ a:visited {
 }
 
 .contentimg2{
-    max-width:328;
-    padding-bottom:20
+    max-width:328px;
+    padding-bottom:20;
 }
 
 @media (max-width: 736px) {
