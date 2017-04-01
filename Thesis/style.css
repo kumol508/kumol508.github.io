@@ -748,8 +748,34 @@ a:visited {
 .footer{
     font-size:0px;
 }
-.extrainfo{
-    width:85%;
-    font-size: 12px;
+.contentw{width:400px};
+            .extrainfo{width:85%;}
+            .W2infobox{
+                width:85%;
+                top:0px;
+                right:0px;
+                border:0px;
+                background:none;
+                position:relative;
+                padding:0px;
+                transition:none;
+                height:160px;
+            }
+            .W2infobox:hover {
+    transform: none;
+}
+.W1infobox{
+                width:85%;
+                top:0px;
+                right:0px;
+                border:0px;
+                background:none;
+                position:relative;
+                padding:0px;
+                transition:none;
+                height:295px;
+            }
+            .W1infobox:hover {
+    transform: none;
 }
 }
