@@ -51,6 +51,7 @@ head {
 }
 
 .subscribe {
+    text-decoration:underline;
     color:white;
 }
 
@@ -794,4 +795,175 @@ a:visited {
             .W1infobox:hover {
     transform: none;
 }
+.contenth{
+    width:400px;
+    height:1200px;
+    top:150px;
+    margin:0 auto;
+    font-family: Futura;
+    font-size:10;
+    position:relative;
+    z-index:1;
+}
+.images-holder{
+    width:100%;
+    height:267px;
+    display:block;
+    position:relative;
+}
+
+.images-holder img{
+    width:100%;
+    display:inline-block;
+    z-index:0;
+}
+
+.images-holder:hover {
+    cursor:pointer;
+}
+
+
+.subbox{
+    width: 55%;
+    height: 30px;
+    background: none;
+    z-index: 0;
+    left:0;
+    color: black;
+    text-align: left;
+    position:relative;
+    display:block;
+    padding:0px;
+    margin-top:30px;
+    margin-bottom:0px;
+    text-transform:uppercase;
+}
+
+.subtext{
+    font-size:14;
+    position:relative;
+    margin:0 auto;
+}
+
+.aboutbox{
+    width: 100%;
+    height: 65px;
+    left:0;
+    top:15px;
+    background: none;
+    z-index: 0;
+    color: black;
+    text-align: left;
+    position:relative;
+    display:block;
+    font-size:12;
+    border:0px;
+    padding:0px;
+}
+
+.aboutbox:hover {
+    cursor:pointer;
+}
+
+.chitengebox{
+    width: 38%;
+    height: 95px;
+    top:55;
+    background: white;
+    z-index: 1;
+    color: black;
+    text-align: left;
+    position:relative;
+    display:inline-block;
+    padding:20;
+    border-color: #c0b283;
+    border-style:solid;
+    border-width: 1;
+    margin-right:7;
+}
+
+.chitenge{
+    font-size:16;
+    position:absolute;
+    padding-top: 18;
+    padding-left:10;
+    z-index:2;
+}
+
+.chitengenum{
+    font-size:120;
+    color: #c0b283;
+    position:absolute;
+    z-index:1;
+    line-height: 0.8;
+    padding-left: 15;
+}
+
+.nextbox{
+    width: 100%;
+    height: 30px;
+    top:50px;
+    right:0;
+    background: none;
+    z-index: 0;
+    color: black;
+    text-align: left;
+    position:relative;
+    display:block;
+    padding:0px;
+    margin-top:20px;
+}
+
+.next{
+    font-size:12;
+    position:relative;
+}
+
+.nextbox:hover {
+  cursor:pointer;
+}
+
+.subscribe{
+    color:black;
+}
+
+.odilibox{
+    width: 38%;
+    height: 95px;
+    top:55;
+    right:0;
+    background:white;
+    z-index:1;
+    text-align: left;
+    position:relative;
+    display:inline-block;
+    padding:20;
+    border-color: #c0b283;
+    border-style:solid;
+    border-width: 1;
+    margin-right: 0;
+}
+
+.odili{
+    font-size:18;
+    color:black;
+    position:absolute;
+    z-index:2;
+    padding-top:18;
+    padding-left: 15;
+}
+
+.odilinum{
+    font-size:120;
+    color: #c0b283;
+    position:absolute;
+    padding-left:3px;
+    z-index:1;
+    line-height: 0.8;
+}
+
+.odilibox:hover {
+  cursor:pointer;
+}  
+
 }
