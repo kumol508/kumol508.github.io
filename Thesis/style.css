@@ -749,7 +749,9 @@ a:visited {
     font-size:0px;
 }
 .contentw{width:400px};
-            .extrainfo{width:85%;}
+            .extrainfo{width:85%;
+                font-size:12px;
+            }
             .W2infobox{
                 width:85%;
                 top:0px;
@@ -761,6 +763,7 @@ a:visited {
                 transition:none;
                 height:160px;
             }
+            
             .W2infobox:hover {
     transform: none;
 }
