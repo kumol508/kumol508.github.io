@@ -68,12 +68,12 @@ head {
 }
 
 .images-holder{
-    width: 500px;
-    height: 333px;
-    top:17%;
-    left:16%;
+    width:60%;
+    height: 280px;
+    top:0;
+    left:0;
     z-index: 0;
-    position:fixed;
+    position:relative;
     border-color: #c0b283;
     border-style:solid;
     border-width: 5;
@@ -91,22 +91,22 @@ head {
 
 
 .subbox{
-    width: 170px;
-    height: 40px;
-    top:17%;
-    right:23%;
+    width: 23%;
+    height: 37px;
+    top:0;
+    right:7%;
     background: #c0b283;
     z-index: 0;
     color: white;
     text-align: left;
-    position:fixed;
+    position:absolute;
     padding:15;
 }
 
 .subtext{
-    font-size:14;
-    font-style: bold;
+    font-size:13;
     position:relative;
+    margin:0 auto;
 }
 
 .subbox:hover {
@@ -114,15 +114,15 @@ head {
 }
 
 .aboutbox{
-    width: 173px;
-    height: 186px;
-    top:25%;
-    right:18%;
+    width: 24%;
+    height: 178px;
+    top:10%;
+    right:0;
     background: white;
     z-index: 0;
     color: black;
     text-align: left;
-    position:fixed;
+    position:absolute;
     padding:20;
     font-size:12;
     border-color: #c0b283;
@@ -135,15 +135,14 @@ head {
 }
 
 .chitengebox{
-    width: 210px;
-    height: 155px;
-    top:65%;
-    left:16%;
+    width: 24%;
+    height: 105px;
+    bottom:0;
     background: white;
     z-index: 1;
     color: black;
     text-align: left;
-    position:fixed;
+    position:absolute;
     padding:20;
     border-color: #c0b283;
     border-style:solid;
@@ -151,20 +150,19 @@ head {
 }
 
 .chitenge{
-    font-size:24;
+    font-size:20;
     position:absolute;
-    padding-top: 34;
-    padding-left: 5;
+    padding-top: 18;
     z-index:2;
 }
 
 .chitengenum{
-    font-size:170;
+    font-size:130;
     color: #c0b283;
     position:absolute;
     z-index:1;
-    line-height: 0.9;
-    padding-left: 10;
+    line-height: 0.8;
+    padding-left: 12;
 }
 
 .chitengebox:hover {
@@ -172,20 +170,20 @@ head {
 }
 
 .nextbox{
-    width: 172px;
-    height: 150px;
-    top:55%;
-    right:40%;
+    width: 24%;
+    height: 26%;
+    top:53%;
+    right:35%;
     background: #c0b283;
     z-index: 0;
     color: white;
     text-align: left;
-    position:fixed;
+    position:absolute;
     padding:20;
 }
 
 .next{
-    font-size:24;
+    font-size:19;
     position:relative;
 }
 
@@ -194,14 +192,14 @@ head {
 }
 
 .odilibox{
-    width: 210px;
-    height: 155px;
-    top:65%;
-    right:15%;
+    width: 24%;
+    height: 105px;
+    bottom:0;
+    right:0;
     background:white;
     z-index:1;
     text-align: left;
-    position:fixed;
+    position:absolute;
     padding:20;
     border-color: #c0b283;
     border-style:solid;
@@ -209,20 +207,20 @@ head {
 }
 
 .odili{
-    font-size:24;
+    font-size:20;
     color:black;
     position:absolute;
     z-index:2;
-    padding-top:34;
+    padding-top:18;
     padding-left: 15;
 }
 
 .odilinum{
-    font-size:170;
+    font-size:130;
     color: #c0b283;
     position:absolute;
     z-index:1;
-    line-height: 0.9;
+    line-height: 0.8;
 }
 
 .odilibox:hover {
@@ -358,6 +356,17 @@ input {
     top:200;
     position: relative;
     display: block;
+}
+
+.contenth{
+    width:700px;
+    height:480px;
+    top:150px;
+    margin:0 auto;
+    font-family: Futura;
+    font-size:14;
+    position:relative;
+    z-index:1;
 }
 
 .content{
