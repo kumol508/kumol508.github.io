@@ -43,7 +43,9 @@ head {
     display:none;
 }
 
-
+.mySlides2{
+    display:none;
+}
 
 .homebox{
     width: 250px;
@@ -80,7 +82,19 @@ head {
     cursor:pointer;
 }
 
+.images-holder2{
+    width:95%;
+    height:252px;
+    display:none;
+    position:relative;
+    margin:0 auto;
+}
 
+.images-holder2 img{
+    width:100%;
+    display:none;
+    z-index:0;
+}
 .subbox{
     width: 23%;
     height: 37px;
@@ -807,22 +821,30 @@ a:visited {
     z-index:1;
 }
 .images-holder{
-    width:100%;
-    height:267px;
-    display:block;
-    position:relative;
+    display:none;
 }
 
 .images-holder img{
+    display:none;
+}
+
+.images-holder2{
+    top:0;
+    left:0;
+    z-index: 0;
+    border-color: #c0b283;
+    border-style:solid;
+    border-width: 5;
+    width:95%;
+    height:252px;
+    display:block;
+    position:relative;
+    margin:0 auto;
+}
+
+.images-holder2 img{
     width:100%;
-    display:inline-block;
-    z-index:0;
 }
-
-.images-holder:hover {
-    cursor:pointer;
-}
-
 
 .subbox{
     width: 55%;
@@ -966,5 +988,8 @@ a:visited {
 .odilibox:hover {
   cursor:pointer;
 }  
+.mySlides2{
+    position:absolute;
+}
 
 }

@@ -53,6 +53,20 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
 </script>
+<script>
+$(".mySlides2").hide();
+
+setInterval(function() {
+  $('.mySlides2:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('.images-holder2');
+}, 3000);
+</script>
+
+
   
   <div class=navbar>
     
@@ -88,6 +102,15 @@ function showDivs(n) {
                    <img class=mySlides src="Children/Kidshome.jpg">
                    <img class=mySlides src="Children/Kids4.jpg">
                    <img class=mySlides src="Children/Kids6.jpg">
+               </div>
+               <div class='images-holder2'>
+                   <img class=mySlides2 src="Images/IMG_1049.JPG">
+                   <img class=mySlides2 src="Images/IMG_0914.jpg">
+                   <img class=mySlides2 src="Images/IMG_0915.jpg">
+                   <img class=mySlides2 src="Images/IMG_0983.jpg">
+                   <img class=mySlides2 src="Children/Kidshome.jpg">
+                   <img class=mySlides2 src="Children/Kids4.jpg">
+                   <img class=mySlides2 src="Children/Kids6.jpg">
                </div>
                
                 <div class=subbox>
