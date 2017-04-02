@@ -37,6 +37,7 @@ head {
 
 .logo{ 
     float:left;
+    width:150px;
 }
 
 .mySlides{
@@ -863,16 +864,18 @@ a:visited {
 }
 
 .subtext{
-    font-size:14;
+    font-size:12;
     position:relative;
     margin:0 auto;
+    font-family: futurabold;
+    text-transform:none;
 }
 
 .aboutbox{
-    width: 100%;
-    height: 65px;
+    width: 375px;
+    height: 85px;
     left:0;
-    top:15px;
+    top:5px;
     background: none;
     z-index: 0;
     color: black;
@@ -880,18 +883,17 @@ a:visited {
     position:relative;
     display:block;
     font-size:12;
-    border:0px;
-    padding:10px;
-}
-
-.aboutbox:hover {
-    cursor:pointer;
+    border-bottom:1px solid #c0b283;
+    border-top:0px;
+    border-right:0px;
+    border-left:0px;
+    padding:10px 10px 20px 10px;
 }
 
 .chitengebox{
-    width: 38%;
-    height: 95px;
-    top:60;
+    width: 32%;
+    height: 90px;
+    top:50;
     background: white;
     z-index: 1;
     color: black;
@@ -902,24 +904,25 @@ a:visited {
     border-color: #c0b283;
     border-style:solid;
     border-width: 1;
-    margin-right:8;
+    margin-right:20;
+    margin-left:18;
 }
 
 .chitenge{
     font-size:16;
     position:absolute;
     padding-top: 18;
-    padding-left:10;
+    padding-left:0;
     z-index:2;
 }
 
 .chitengenum{
-    font-size:120;
+    font-size:110;
     color: #c0b283;
     position:absolute;
     z-index:1;
     line-height: 0.8;
-    padding-left: 15;
+    padding-left: 10;
 }
 
 .nextbox{
@@ -933,9 +936,10 @@ a:visited {
     text-align: left;
     position:relative;
     display:block;
-    padding:10px;
+    padding:30px 10px 10px 10px;
     margin-top:30px;
     margin-bottom:20px;
+    border-top:1px solid #c0b283;
 }
 
 .next{
@@ -952,9 +956,9 @@ a:visited {
 }
 
 .odilibox{
-    width: 38%;
-    height: 95px;
-    top:60;
+    width: 32%;
+    height: 90px;
+    top:50;
     right:0;
     background:white;
     z-index:1;
@@ -969,16 +973,16 @@ a:visited {
 }
 
 .odili{
-    font-size:18;
+    font-size:16;
     color:black;
     position:absolute;
     z-index:2;
     padding-top:18;
-    padding-left: 15;
+    padding-left: 10;
 }
 
 .odilinum{
-    font-size:120;
+    font-size:110;
     color: #c0b283;
     position:absolute;
     padding-left:3px;
@@ -1003,7 +1007,11 @@ a:visited {
   top:0;
   left:0; 
 }
-
-
+.logo{
+    width:100px;
+}
+.navbar ul{
+    padding-left:15px;
+}
     
 }
