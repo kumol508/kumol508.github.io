@@ -836,7 +836,7 @@ a:visited {
     border-style:solid;
     border-width: 5;
     width:95%;
-    height:252px;
+    height:253px;
     display:block;
     position:relative;
     margin:0 auto;
@@ -902,7 +902,7 @@ a:visited {
     border-color: #c0b283;
     border-style:solid;
     border-width: 1;
-    margin-right:7;
+    margin-right:8;
 }
 
 .chitenge{
@@ -933,8 +933,9 @@ a:visited {
     text-align: left;
     position:relative;
     display:block;
-    padding:5px;
-    margin-top:20px;
+    padding:10px;
+    margin-top:30px;
+    margin-bottom:20px;
 }
 
 .next{
@@ -1003,4 +1004,6 @@ a:visited {
   left:0; 
 }
 
+
+    
 }
