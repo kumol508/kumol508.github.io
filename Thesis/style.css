@@ -119,6 +119,10 @@ head {
     cursor:pointer;
 }
 
+.mobiletitle {
+    display:none;
+}
+
 .aboutbox{
     width: 24%;
     height: 178px;
@@ -867,7 +871,7 @@ top:100;
 }
 
 .subbox{
-    width: 55%;
+    width:80%;
     height: 30px;
     background: none;
     z-index: 0;
@@ -877,16 +881,14 @@ top:100;
     position:relative;
     display:block;
     padding:10px;
-    margin-top:30px;
-    margin-bottom:0px;
-    text-transform:uppercase;
+    margin-top:0px;
+    margin-bottom:10px;
 }
 
 .subtext{
-    font-size:12;
+    font-size:14;
     position:relative;
     margin:0 auto;
-    font-family: futurabold;
     text-transform:none;
 }
 
@@ -894,7 +896,7 @@ top:100;
     width: 375px;
     height: 85px;
     left:0;
-    top:5px;
+    top:10px;
     background: none;
     z-index: 0;
     color: black;
@@ -1050,6 +1052,12 @@ label {
 }
 .navbar ul {
   padding-right: 35;
+}
+
+.mobiletitle {
+    font-size:30;
+    display:block;
+    padding-left:10;
 }
 
 }
