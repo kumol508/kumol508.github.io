@@ -1,0 +1,151 @@
+<html>
+<head>
+    <link href="africa.css" rel="stylesheet" type="text/css" />  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+<script>
+if (annyang) {
+  // Let's define our first command. First the text we expect, and then the function it should call
+  
+  var pageScroll = function() {
+      window.scrollBy(0, 800);
+      };
+      //myFunction = function() {
+      //window.print();
+     // };
+  
+    
+  // Add our commands to annyang
+  annyang.addCommands({
+      'Africa is not a country': pageScroll,
+      'country': pageScroll,
+      //'Africa is a continent': myFunction,
+      //'share': myFunction,
+  })
+
+  // Start listening. You can call this here, or attach this call to an event, button, etc.
+  annyang.start();
+}
+</script>
+  <title>AFRICA | Country Profile</title>
+</head>
+<body>
+    <div class="header">
+        AFRICA: <br> Country Profile
+    </div>
+    <div class="content1">        
+        <div class="friends"> 
+        <p style="text-align:center">
+        What is the capital of Africa?
+        </p>
+        <div class="wrong"> 
+        <p class="wrongtext"> Africa is not a country
+        </p>
+        </div>
+            <div class= "option1">
+            <p class="option1text">NAIROBI</p>
+            </div>
+            
+            <div class= "option2">
+            <p class="option2text">ACCRA</p>
+            </div>
+            <!--<p data-target=".content2" class="button"></p>-->
+            <p class="buttontext1">Incorrect. Repeat the phrase to continue.</p>
+        </div>
+    </div>
+    
+    <div class="content2">        
+        <div class="friends"> 
+        <p style="text-align:center">
+        What is the official language of Africa?
+        </p>
+        <div class="wrong2"> 
+        <p class="wrong2text"> Africa is not a country
+        </p>
+        </div>
+            <div class= "option3">
+            <p class="option3text">ENGLISH</p>
+            </div>
+            
+            <div class= "option4">
+            <p class="option4text">FRENCH</p>
+            </div>
+            <!--<p data-target=".content3" class="button"></p>-->
+            <p class="buttontext2">Incorrect. Repeat the phrase to continue.</p>
+        </div>
+    </div>
+    
+    <div class="content3">        
+        <div class="friends"> 
+        <p style="text-align:center">
+        Who is the president of Africa?
+        </p>
+        <div class="wrong3"> 
+        <p class="wrong3text"> Africa is not a country
+        </p>
+        </div>
+            <div class= "option5">
+            <p class="option5text">MUGABE</p>
+            </div>
+            
+            <div class= "option6">
+            <p class="option6text">SIRLEAF</p>
+            </div>
+            <!--<p data-target=".content4" class="button"></p>-->
+            <p class="buttontext3">Incorrect. Repeat the phrase to continue.</p>
+        </div>
+    </div>
+    
+    <div class="content4">        
+        <div class="friends"> 
+        <p style="text-align:center">
+        What is the national flag of Africa?
+        </p>
+        <div class="wrong4"> 
+        <p class="wrong4text"> Africa is not a country
+        </p>
+        </div>
+            <div class= "option7">
+            <p class="option7text">ENGLISH</p>
+            </div>
+            
+            <div class= "option8">
+            <p class="option8text">FRENCH</p>
+            </div>
+            <!--<p data-target=".content5" class="button"></p>-->
+            <p class="buttontext4">Incorrect. Repeat the phrase to continue.</p>
+        </div>
+    </div>
+
+    <div class="content5">        
+        <div class="friends"> 
+        <p style="text-align:center">
+        What is the currency of Africa?
+        </p>
+        <div class="wrong5"> 
+        <p class="wrong5text"> Africa is not a country
+        </p>
+        </div>
+            <div class= "option9">
+            <p class="option9text">DINAR</p>
+            </div>
+            
+            <div class= "option10">
+            <p class="option10text">KWACHA</p>
+            </div>
+            <!--<p data-target=".content6" class="button"></p>-->
+            <p class="buttontext5">Incorrect. Repeat the phrase to continue.</p>
+        </div>
+    </div>
+    
+    <div id="content6" class="content6">
+ 
+    <div class="end">
+        <p class="endtext">Africa is <br> a continent <br> made up of<br>54 countries.</p>
+    </div>
+    <div class="countrylist"> </div>
+            
+    </div>
+<script src="africa.js"></script>
+</body>
+</html>
