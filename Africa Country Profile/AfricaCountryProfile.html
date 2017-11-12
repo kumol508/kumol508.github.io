@@ -27,11 +27,18 @@ if (annyang) {
   annyang.start();
 }
 </script>
-  <title>AFRICA | Country Profile</title>
+<script>
+  function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+   </script>
+  <title>Country Profile | Africa</title>
 </head>
 <body>
+    <audio id="audio" src="Buzzer.mp3" ></audio>
     <div class="header">
-        AFRICA <br> Country Profile
+        Country Profile: Africa
     </div>
     <div class="content1">        
         <div class="friends"> 
@@ -42,15 +49,15 @@ if (annyang) {
         <p class="wrongtext"> Africa is not a country
         </p>
         </div>
-            <div class= "option1">
+            <div class= "option1" onclick="play()">
             <p class="option1text">NAIROBI</p>
             </div>
             
-            <div class= "option2">
+            <div class= "option2" onclick="play()">
             <p class="option2text">ACCRA</p>
             </div>
             <!--<p data-target=".content2" class="button"></p>-->
-            <p class="buttontext1">Incorrect. Repeat the phrase to continue.</p>
+            <p class="buttontext1">Incorrect. Repeat the phrase aloud to continue.</p>
         </div>
     </div>
     
@@ -63,15 +70,15 @@ if (annyang) {
         <p class="wrong2text"> Africa is not a country
         </p>
         </div>
-            <div class= "option3">
+            <div class= "option3" onclick="play()">
             <p class="option3text">ENGLISH</p>
             </div>
             
-            <div class= "option4">
+            <div class= "option4" onclick="play()">
             <p class="option4text">FRENCH</p>
             </div>
             <!--<p data-target=".content3" class="button"></p>-->
-            <p class="buttontext2">Incorrect. Repeat the phrase to continue.</p>
+            <p class="buttontext2"> Incorrect. Repeat the phrase aloud to continue.</p>
         </div>
     </div>
     
@@ -84,15 +91,15 @@ if (annyang) {
         <p class="wrong3text"> Africa is not a country
         </p>
         </div>
-            <div class= "option5">
+            <div class= "option5" onclick="play()">
             <p class="option5text">MUGABE</p>
             </div>
             
-            <div class= "option6">
+            <div class= "option6" onclick="play()">
             <p class="option6text">SIRLEAF</p>
             </div>
             <!--<p data-target=".content4" class="button"></p>-->
-            <p class="buttontext3">Incorrect. Repeat the phrase to continue.</p>
+            <p class="buttontext3">Incorrect. Repeat the phrase aloud to continue.</p>
         </div>
     </div>
     
@@ -105,15 +112,19 @@ if (annyang) {
         <p class="wrong4text"> Africa is not a country
         </p>
         </div>
-            <div class= "option7">
-            <p class="option7text">ENGLISH</p>
+            <div class= "option7" onclick="play()">
+            <p class="option7text">
+                <img src="chad.png" style="width:200px">
+            </p>
             </div>
             
-            <div class= "option8">
-            <p class="option8text">FRENCH</p>
+            <div class= "option8" onclick="play()">
+            <p class="option8text">
+                <img src="madagascar.png" style="width:200px">
+            </p>
             </div>
             <!--<p data-target=".content5" class="button"></p>-->
-            <p class="buttontext4">Incorrect. Repeat the phrase to continue.</p>
+            <p class="buttontext4">Incorrect. Repeat the phrase aloud to continue.</p>
         </div>
     </div>
 
@@ -126,15 +137,15 @@ if (annyang) {
         <p class="wrong5text"> Africa is not a country
         </p>
         </div>
-            <div class= "option9">
+            <div class= "option9" onclick="play()">
             <p class="option9text">DINAR</p>
             </div>
             
-            <div class= "option10">
+            <div class= "option10" onclick="play()">
             <p class="option10text">KWACHA</p>
             </div>
             <!--<p data-target=".content6" class="button"></p>-->
-            <p class="buttontext5">Incorrect. Repeat the phrase to continue.</p>
+            <p class="buttontext5">Incorrect. Repeat the phrase aloud to continue.</p>
         </div>
     </div>
     
