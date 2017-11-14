@@ -27,3 +27,9 @@ $('.option7,.option8').click(function(){
 $('.option9,.option10').click(function(){
     $('.wrong5,.buttontext5').toggle('slow');
 })
+
+window.onload = function () {
+    document.getElementById('button').onclick = function () {
+        document.getElementById('modal').style.display = "none"
+    };
+};
