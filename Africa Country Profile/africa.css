@@ -187,7 +187,6 @@ ul {
     top:100;
 	position:relative;
     text-align:center;
-    font-size:14;
     display:none;
 }
 
@@ -195,28 +194,24 @@ ul {
     top:100;
 	position:relative;
     text-align:center;
-    font-size:14;
     display:none;
 }
 .buttontext3 {
     top:100;
 	position:relative;
     text-align:center;
-    font-size:14;
     display:none;
 }
 .buttontext4 {
     top:100;
 	position:relative;
     text-align:center;
-    font-size:14;
     display:none;
 }
 .buttontext5 {
     top:100;
 	position:relative;
     text-align:center;
-    font-size:14;
     display:none;
 }
 .option1 {
@@ -579,6 +574,7 @@ ul {
     z-index: 99999;
     height: 100%;
     width: 100%;
+    text-align: center;
 }
 .modalconent {
     position: absolute;
@@ -586,8 +582,17 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
     background: #fff;
-    width: 350px;
+    width: 500px;
+    height:200px;
     padding: 20px;
+}
+
+.modaltext{
+width:350px;    
+ position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #button{
