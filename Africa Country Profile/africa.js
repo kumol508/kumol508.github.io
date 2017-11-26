@@ -1,14 +1,3 @@
-$('.content,.button,.friend-button,.graduation-button,.home-button,.wedding-button,.button-end').click(function(event) {
-    var text     =  $(this).children('.text'),
-        target   = $(this).data('target'),
-        offset_y = $(target).offset().top;
-    
-    $(text).addClass('transition');
-    
-    $('html, body').delay(1000).animate({ 'scrollTop': offset_y });
-
-    });
-   
 $('.option1,.option2').click(function(){
     $('.wrong,.buttontext1').toggle('slow');
 })
