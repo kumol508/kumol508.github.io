@@ -48,6 +48,14 @@ body{
     z-index:1000;
 }
 
+a {
+    color:black;
+    text-decoration:none;
+}
+a:hover {
+    color:red;
+}
+
 .questions {
     margin:0 auto;
     width:550px;
@@ -173,6 +181,12 @@ body{
     top:800;
 }
 
+button{
+    text-decoration:none;
+    font-family: "Circular Book";
+    font-size:12;
+}
+
 .button {
 	width: 0;
 	height: 0;
@@ -222,6 +236,14 @@ body{
 	position:relative;
     text-align:center;
     display:none;
+}
+.buttontext6 {
+    top:100;
+	position:relative;
+    text-align:center;
+    text-decoration:none;
+    color:black;
+    float:right;
 }
 .option1 {
     top:30;
