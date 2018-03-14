@@ -1,3 +1,7 @@
+$(document).ready(function(){
+$(this).scrollTop(0);
+})
+
 $('.option1,.option2').click(function(){
     $('.wrong,.buttontext1').toggle('slow');
 })
@@ -16,6 +20,21 @@ $('.option7,.option8').click(function(){
 $('.option9,.option10').click(function(){
     $('.wrong5,.buttontext5').toggle('slow');
 })
+
+$('.buttontext6').click(function(){
+    $(this).scrollTop(0,0);
+})
+
+$('.buttontext6').click(function(event) {
+    var text     =  $(this).children('.text'),
+        target   = $(this).data('target'),
+        offset_y = $(target).offset().top;
+    
+    $(text).addClass('transition');
+    
+    $('html, body').delay(1000).animate({ 'scrollTop': offset_y });
+
+    })
 
 window.onload = function () {
     document.getElementById('button').onclick = function () {
