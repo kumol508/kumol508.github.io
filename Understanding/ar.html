@@ -11,20 +11,15 @@
   <a-scene embedded arjs>
     <!-- create your content here. just a box for now -->
     <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
-    <a-text position='0 0 0.5'value="Hello, World!"></a-text>
+    <a-text position='0 0 0.5' value="Hello, World!"></a-text>
     
-
-    <!-- define a camera which will move according to the marker position -->
-    <a-marker-camera preset='hiro'>
-        <!-- here define the content to display on top of the marker -->
-        <a-box position='0 0.5 0' material='color: red;'></a-box>
-    </a-marker-camera>
-    <!-- define a simple camera -->
-    <a-entity camera></a-entity>
-
     <a-marker-camera type='pattern' preset='custom' url'pattern01.patt'>
             <a-box position='0 0.5 0' color="yellow"></a-box>
         </a-marker-camera>
+        
+        
+    <!-- define a simple camera -->
+    <a-entity camera></a-entity>
   </a-scene>
 </body>
 </html>
