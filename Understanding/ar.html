@@ -15,14 +15,14 @@
     
 
     <!-- define a camera which will move according to the marker position -->
-    <a-marker-camera type="pattern" url="pattern02.patt">
+    <a-marker-camera preset='hiro'>
         <!-- here define the content to display on top of the marker -->
         <a-box position='0 0.5 0' material='color: red;'></a-box>
     </a-marker-camera>
     <!-- define a simple camera -->
     <a-entity camera></a-entity>
 
-    <a-marker type='pattern' preset='custom' url'/img/pattern01.patt'>
+    <a-marker type='pattern' preset='custom' url'pattern02.patt'>
             <a-box position='0 0.5 0' color="yellow"></a-box>
         </a-marker>
   </a-scene>
