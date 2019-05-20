@@ -1,0 +1,75 @@
+<html>
+<head>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="lib/jquery.upvote.js"></script>
+
+    <link rel="stylesheet" href="lib/jquery.upvote.css">
+<style type="text/css">
+
+	.hidden {
+	    display: none;
+	}
+    .examples {
+        overflow: auto;
+    }
+    .examples div.upvote {
+        float: left;
+    }
+    #footer {
+        height: 60px;
+        background-color: #f5f5f5;
+    }
+    .credit {
+        margin: 20px 0;
+    }
+
+    </style>
+    
+    <script type="text/javascript">
+        function gen(target, cssClass, params) {
+            var obj = $('#templates .upvote').clone();
+            obj.addClass(cssClass);
+            $(target).append(obj);
+            return obj.upvote(params);
+        }
+
+        $(function() {
+                function gen_examples(params) {
+                    gen('#examples', '', params);
+                }
+                function gen_unix(params) {
+                    gen('#unix', 'upvote-unix', params);
+                }
+                function gen_programmers(params) {
+                    gen('#programmers', 'upvote-programmers', params);
+                }
+                function gen_serverfault(params) {
+                    gen('#serverfault', 'upvote-serverfault', params);
+                }
+                var functions = [gen_examples, gen_unix, gen_programmers, gen_serverfault];
+                for (var i in functions) {
+                    var fun = functions[i];
+                    fun();
+                    fun({count: 5});
+                    fun({count: 6, upvoted: 1});
+                    fun({count: 4, downvoted: 1});
+                    fun({count: 15, starred: 1});
+                    fun({count: 16, upvoted: 1, starred: 1});
+                    fun({count: 14, downvoted: 1, starred: 1});
+                }
+        });
+    </script>   
+  <title>Info Value</title>
+</head>
+<body>
+
+<div id="topic" class="upvote">
+    <a class="upvote"></a>
+    <span class="count">0</span>
+    <a class="downvote"></a>
+    <a class="star"></a>
+</div>
+
+
+</body>
+</html>
